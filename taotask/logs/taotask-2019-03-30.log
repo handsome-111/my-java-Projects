@@ -1,0 +1,1374 @@
+2019-03-30 14:17:33.505 [restartedMain] INFO 
+                o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-03-30 14:17:34.300 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:17:35.437 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - The following profiles are active: taotask1 
+2019-03-30 14:17:37.517 [restartedMain] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.youmeng.taotask.mapper.mapper*]' package. Please check your configuration. 
+2019-03-30 14:17:38.219 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:17:38.225 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:17:38.289 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces. 
+2019-03-30 14:17:38.324 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:17:38.331 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:17:38.417 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 repository interfaces. 
+2019-03-30 14:17:38.715 [restartedMain] WARN 
+                o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+2019-03-30 14:17:38.811 [restartedMain] WARN 
+                o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format. 
+2019-03-30 14:17:39.561 [restartedMain] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eb2cf80d-5d5b-325b-bd8d-ae06ae618f13 
+2019-03-30 14:17:40.143 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb9ade86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:17:40.239 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:17:41.743 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-03-30 14:17:41.785 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:17:41.786 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:17:41.811 [restartedMain] INFO 
+                org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\soft\Git\cmd;C:\soft\TortoiseGit\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.] 
+2019-03-30 14:17:42.146 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:17:42.150 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6650 ms 
+2019-03-30 14:17:42.475 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:17:42.475 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:17:42.522 [restartedMain] INFO 
+                com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@38d269e6 
+2019-03-30 14:17:44.702 [restartedMain] WARN 
+                com.zaxxer.hikari.HikariConfig - MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it. 
+2019-03-30 14:17:44.710 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting... 
+2019-03-30 14:17:44.710 [restartedMain] WARN 
+                com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation. 
+2019-03-30 14:17:45.046 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed. 
+2019-03-30 14:17:45.186 [restartedMain] INFO 
+                org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-03-30 14:17:45.311 [restartedMain] INFO 
+                org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final} 
+2019-03-30 14:17:45.327 [restartedMain] INFO 
+                org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-03-30 14:17:45.811 [restartedMain] INFO 
+                org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-03-30 14:17:46.176 [restartedMain] INFO 
+                org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2019-03-30 14:17:46.880 [restartedMain] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:17:46.984 [restartedMain] INFO 
+                o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-03-30 14:17:48.533 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:17:48.536 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:17:49.375 [restartedMain] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:17:49.782 [restartedMain] WARN 
+                org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+2019-03-30 14:17:52.980 [restartedMain] INFO 
+                io.lettuce.core.EpollProvider - Starting without optional epoll library 
+2019-03-30 14:17:52.985 [restartedMain] INFO 
+                io.lettuce.core.KqueueProvider - Starting without optional kqueue library 
+2019-03-30 14:17:56.555 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http) 
+2019-03-30 14:17:56.558 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:17:56.560 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:17:56.624 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat-1].[localhost].[/actuator] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:17:56.625 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 624 ms 
+2019-03-30 14:17:56.646 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint 
+2019-03-30 14:17:56.649 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint 
+2019-03-30 14:17:56.744 [restartedMain] INFO 
+                o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 23 endpoint(s) beneath base path '/actuator' 
+2019-03-30 14:17:56.975 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path '/actuator' 
+2019-03-30 14:17:56.977 [restartedMain] INFO 
+                o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8181 
+2019-03-30 14:17:57.006 [restartedMain] INFO 
+                o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+2019-03-30 14:17:57.172 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+2019-03-30 14:17:58.186 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+2019-03-30 14:17:58.187 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+2019-03-30 14:17:58.529 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+2019-03-30 14:17:58.532 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+2019-03-30 14:17:59.302 [restartedMain] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: true 
+2019-03-30 14:17:59.642 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:17:59.845 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:17:59.845 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+2019-03-30 14:17:59.845 [restartedMain] INFO 
+                com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+2019-03-30 14:17:59.860 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553926679845 with initial instances count: 0 
+2019-03-30 14:17:59.881 [restartedMain] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TAOTASK with eureka with status UP 
+2019-03-30 14:17:59.883 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553926679883, current=UP, previous=STARTING] 
+2019-03-30 14:17:59.887 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:18:00.066 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:18:00.521 [restartedMain] INFO 
+                o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing 
+2019-03-30 14:18:00.535 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '/taotask' 
+2019-03-30 14:18:00.535 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - Started TaotaskApplication in 29.089 seconds (JVM running for 30.305) 
+2019-03-30 14:18:18.443 [http-nio-81-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-03-30 14:18:18.445 [http-nio-81-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-03-30 14:18:18.475 [http-nio-81-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms 
+2019-03-30 14:18:18.671 [http-nio-81-exec-1] ERROR
+                o.s.c.sleuth.instrument.web.ExceptionLoggingFilter - Uncaught exception thrown 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+### Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:151)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+### Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy146.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:68)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy151.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:99)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$EnhancerBySpringCGLIB$$74b1f36f.save(<generated>)
+	at com.youmeng.taotask.controller.TasklogController.test(TasklogController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	... 60 common frames omitted
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+### Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:200)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 84 common frames omitted
+Caused by: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+	at org.apache.ibatis.mapping.ParameterMapping$Builder.validate(ParameterMapping.java:119)
+	at org.apache.ibatis.mapping.ParameterMapping$Builder.build(ParameterMapping.java:104)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:123)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:44)
+	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:292)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.<init>(BaseStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.<init>(PreparedStatementHandler.java:40)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.<init>(RoutingStatementHandler.java:46)
+	at org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:558)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	... 90 common frames omitted
+2019-03-30 14:18:18.681 [http-nio-81-exec-1] ERROR
+                o.a.c.c.C.[.[.[/taotask].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/taotask] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+### Cause: java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.] with root cause 
+java.lang.IllegalStateException: Type handler was null on parameter mapping for property 'task'. It was either not specified and/or could not be found for the javaType (com.youmeng.common.base.taotask.entity.Task) : jdbcType (null) combination.
+	at org.apache.ibatis.mapping.ParameterMapping$Builder.validate(ParameterMapping.java:119)
+	at org.apache.ibatis.mapping.ParameterMapping$Builder.build(ParameterMapping.java:104)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:123)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.xmltags.DynamicSqlSource.getBoundSql(DynamicSqlSource.java:44)
+	at org.apache.ibatis.mapping.MappedStatement.getBoundSql(MappedStatement.java:292)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.<init>(BaseStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.<init>(PreparedStatementHandler.java:40)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.<init>(RoutingStatementHandler.java:46)
+	at org.apache.ibatis.session.Configuration.newStatementHandler(Configuration.java:558)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy146.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:68)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy151.insert(Unknown Source)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl.save(ServiceImpl.java:99)
+	at com.baomidou.mybatisplus.extension.service.impl.ServiceImpl$$FastClassBySpringCGLIB$$76535273.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$EnhancerBySpringCGLIB$$74b1f36f.save(<generated>)
+	at com.youmeng.taotask.controller.TasklogController.test(TasklogController.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:151)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-30 14:18:29.861 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:18:29.863 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:18:29.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:18:29.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:18:29.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:18:29.865 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: false 
+2019-03-30 14:18:29.866 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:18:29.920 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:22:59.657 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:27:59.659 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:32:59.662 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:37:59.676 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:40:02.284 [Thread-9] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application TAOTASK with eureka with status DOWN 
+2019-03-30 14:40:02.286 [Thread-9] WARN 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928002286, current=DOWN, previous=UP] 
+2019-03-30 14:40:02.287 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:40:02.296 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:40:02.631 [Thread-9] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:40:02.658 [Thread-9] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:40:03.784 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+2019-03-30 14:40:06.800 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Unregistering ... 
+2019-03-30 14:40:06.823 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - deregister  status: 200 
+2019-03-30 14:40:06.824 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+2019-03-30 14:40:06.824 [Thread-9] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated... 
+2019-03-30 14:40:06.840 [Thread-9] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed. 
+2019-03-30 14:40:08.245 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:40:08.909 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - The following profiles are active: taotask1 
+2019-03-30 14:40:09.873 [restartedMain] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.youmeng.taotask.mapper.mapper*]' package. Please check your configuration. 
+2019-03-30 14:40:10.180 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:40:10.180 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:40:10.210 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces. 
+2019-03-30 14:40:10.216 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:40:10.216 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:40:10.239 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces. 
+2019-03-30 14:40:10.484 [restartedMain] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eb2cf80d-5d5b-325b-bd8d-ae06ae618f13 
+2019-03-30 14:40:10.577 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb9ade86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:40:10.609 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:40:11.154 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-03-30 14:40:11.156 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:40:11.156 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:40:11.206 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:40:11.207 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2293 ms 
+2019-03-30 14:40:11.388 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:40:11.389 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:40:11.390 [restartedMain] INFO 
+                com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@668e905 
+2019-03-30 14:40:12.139 [restartedMain] WARN 
+                com.zaxxer.hikari.HikariConfig - MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it. 
+2019-03-30 14:40:12.140 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting... 
+2019-03-30 14:40:12.142 [restartedMain] WARN 
+                com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation. 
+2019-03-30 14:40:12.149 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed. 
+2019-03-30 14:40:12.183 [restartedMain] INFO 
+                org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-03-30 14:40:12.314 [restartedMain] INFO 
+                org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2019-03-30 14:40:12.580 [restartedMain] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:40:12.627 [restartedMain] INFO 
+                o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-03-30 14:40:13.329 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:40:13.330 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:40:13.805 [restartedMain] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:40:13.987 [restartedMain] WARN 
+                org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+2019-03-30 14:40:16.993 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http) 
+2019-03-30 14:40:16.996 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:40:16.997 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:40:17.059 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat-1].[localhost].[/actuator] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:40:17.059 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 472 ms 
+2019-03-30 14:40:17.059 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint 
+2019-03-30 14:40:17.075 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint 
+2019-03-30 14:40:17.090 [restartedMain] INFO 
+                o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 23 endpoint(s) beneath base path '/actuator' 
+2019-03-30 14:40:17.183 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path '/actuator' 
+2019-03-30 14:40:17.185 [restartedMain] INFO 
+                o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8181 
+2019-03-30 14:40:17.201 [restartedMain] INFO 
+                o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+2019-03-30 14:40:17.208 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+2019-03-30 14:40:17.221 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+2019-03-30 14:40:17.223 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+2019-03-30 14:40:17.223 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+2019-03-30 14:40:17.223 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+2019-03-30 14:40:17.353 [restartedMain] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:40:17.373 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:40:17.373 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:40:17.374 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:40:17.374 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:40:17.374 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:40:17.374 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: true 
+2019-03-30 14:40:17.375 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:40:17.383 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:40:17.384 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+2019-03-30 14:40:17.386 [restartedMain] INFO 
+                com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+2019-03-30 14:40:17.387 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553928017387 with initial instances count: 1 
+2019-03-30 14:40:17.398 [restartedMain] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TAOTASK with eureka with status UP 
+2019-03-30 14:40:17.398 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928017398, current=UP, previous=STARTING] 
+2019-03-30 14:40:17.402 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:40:17.425 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:40:17.988 [restartedMain] INFO 
+                o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing 
+2019-03-30 14:40:17.988 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '/taotask' 
+2019-03-30 14:40:17.988 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - Started TaotaskApplication in 10.477 seconds (JVM running for 1367.757) 
+2019-03-30 14:40:18.003 [restartedMain] INFO 
+                o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-03-30 14:45:17.380 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:46:50.410 [Thread-20] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application TAOTASK with eureka with status DOWN 
+2019-03-30 14:46:50.411 [Thread-20] WARN 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928410411, current=DOWN, previous=UP] 
+2019-03-30 14:46:50.412 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:46:50.418 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:46:50.718 [Thread-20] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:46:50.718 [Thread-20] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:46:51.847 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+2019-03-30 14:46:54.860 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Unregistering ... 
+2019-03-30 14:46:54.865 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - deregister  status: 200 
+2019-03-30 14:46:54.875 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+2019-03-30 14:46:54.877 [Thread-20] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated... 
+2019-03-30 14:46:54.882 [Thread-20] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed. 
+2019-03-30 14:46:56.441 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:46:57.192 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - The following profiles are active: taotask1 
+2019-03-30 14:46:58.337 [restartedMain] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.youmeng.taotask.mapper.mapper*]' package. Please check your configuration. 
+2019-03-30 14:46:58.717 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:46:58.717 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:46:58.748 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces. 
+2019-03-30 14:46:58.748 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:46:58.748 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:46:58.780 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces. 
+2019-03-30 14:46:59.108 [restartedMain] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eb2cf80d-5d5b-325b-bd8d-ae06ae618f13 
+2019-03-30 14:46:59.196 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fb9ade86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:46:59.221 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17b4e183] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:46:59.807 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-03-30 14:46:59.810 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:46:59.811 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:46:59.858 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:46:59.858 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2666 ms 
+2019-03-30 14:47:00.003 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:47:00.003 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:47:00.003 [restartedMain] INFO 
+                com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@112b889 
+2019-03-30 14:47:00.698 [restartedMain] WARN 
+                com.zaxxer.hikari.HikariConfig - MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it. 
+2019-03-30 14:47:00.714 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting... 
+2019-03-30 14:47:00.714 [restartedMain] WARN 
+                com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation. 
+2019-03-30 14:47:00.714 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed. 
+2019-03-30 14:47:00.745 [restartedMain] INFO 
+                org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-03-30 14:47:00.903 [restartedMain] INFO 
+                org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2019-03-30 14:47:01.184 [restartedMain] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:47:01.232 [restartedMain] INFO 
+                o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-03-30 14:47:02.004 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:47:02.010 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:47:02.511 [restartedMain] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:47:02.789 [restartedMain] WARN 
+                org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+2019-03-30 14:47:05.814 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http) 
+2019-03-30 14:47:05.817 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:47:05.817 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:47:05.849 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat-1].[localhost].[/actuator] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:47:05.849 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 370 ms 
+2019-03-30 14:47:05.865 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint 
+2019-03-30 14:47:05.865 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint 
+2019-03-30 14:47:05.865 [restartedMain] INFO 
+                o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 23 endpoint(s) beneath base path '/actuator' 
+2019-03-30 14:47:05.910 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path '/actuator' 
+2019-03-30 14:47:05.910 [restartedMain] INFO 
+                o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8181 
+2019-03-30 14:47:05.910 [restartedMain] INFO 
+                o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+2019-03-30 14:47:05.926 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+2019-03-30 14:47:05.926 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+2019-03-30 14:47:05.926 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+2019-03-30 14:47:05.926 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+2019-03-30 14:47:05.926 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: true 
+2019-03-30 14:47:06.067 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:47:06.082 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:47:06.082 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+2019-03-30 14:47:06.082 [restartedMain] INFO 
+                com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+2019-03-30 14:47:06.082 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553928426082 with initial instances count: 0 
+2019-03-30 14:47:06.098 [restartedMain] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TAOTASK with eureka with status UP 
+2019-03-30 14:47:06.098 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928426098, current=UP, previous=STARTING] 
+2019-03-30 14:47:06.098 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:47:06.121 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:47:06.686 [restartedMain] INFO 
+                o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing 
+2019-03-30 14:47:06.702 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '/taotask' 
+2019-03-30 14:47:06.702 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - Started TaotaskApplication in 10.928 seconds (JVM running for 1776.464) 
+2019-03-30 14:47:06.702 [restartedMain] INFO 
+                o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-03-30 14:47:20.958 [Thread-36] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application TAOTASK with eureka with status DOWN 
+2019-03-30 14:47:20.975 [Thread-36] WARN 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928440975, current=DOWN, previous=UP] 
+2019-03-30 14:47:21.038 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:47:21.061 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:47:21.406 [Thread-36] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:47:21.406 [Thread-36] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:47:22.631 [Thread-36] INFO 
+                com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+2019-03-30 14:48:10.737 [restartedMain] INFO 
+                o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2019-03-30 14:48:11.129 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f455ae4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:48:12.069 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - The following profiles are active: taotask1 
+2019-03-30 14:48:13.851 [restartedMain] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.youmeng.taotask.mapper.mapper*]' package. Please check your configuration. 
+2019-03-30 14:48:14.516 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:48:14.519 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:48:14.584 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 repository interfaces. 
+2019-03-30 14:48:14.600 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:48:14.603 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:48:14.647 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces. 
+2019-03-30 14:48:14.879 [restartedMain] WARN 
+                o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format. 
+2019-03-30 14:48:14.957 [restartedMain] WARN 
+                o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format. 
+2019-03-30 14:48:15.660 [restartedMain] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eb2cf80d-5d5b-325b-bd8d-ae06ae618f13 
+2019-03-30 14:48:16.242 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d83bab52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:48:16.341 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f455ae4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:48:17.847 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-03-30 14:48:17.896 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:48:17.912 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:48:17.927 [restartedMain] INFO 
+                org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\soft\Git\cmd;C:\soft\TortoiseGit\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.] 
+2019-03-30 14:48:18.193 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:48:18.193 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6102 ms 
+2019-03-30 14:48:18.615 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:48:18.615 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:48:18.646 [restartedMain] INFO 
+                com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1e840bbf 
+2019-03-30 14:48:20.623 [restartedMain] WARN 
+                com.zaxxer.hikari.HikariConfig - MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it. 
+2019-03-30 14:48:20.624 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting... 
+2019-03-30 14:48:20.632 [restartedMain] WARN 
+                com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation. 
+2019-03-30 14:48:20.973 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed. 
+2019-03-30 14:48:21.114 [restartedMain] INFO 
+                org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-03-30 14:48:21.223 [restartedMain] INFO 
+                org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final} 
+2019-03-30 14:48:21.239 [restartedMain] INFO 
+                org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2019-03-30 14:48:21.629 [restartedMain] INFO 
+                org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+2019-03-30 14:48:21.986 [restartedMain] INFO 
+                org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2019-03-30 14:48:22.633 [restartedMain] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:48:22.711 [restartedMain] INFO 
+                o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-03-30 14:48:24.124 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:48:24.124 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:48:24.881 [restartedMain] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:48:25.274 [restartedMain] WARN 
+                org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+2019-03-30 14:48:27.793 [restartedMain] INFO 
+                io.lettuce.core.EpollProvider - Starting without optional epoll library 
+2019-03-30 14:48:27.813 [restartedMain] INFO 
+                io.lettuce.core.KqueueProvider - Starting without optional kqueue library 
+2019-03-30 14:48:32.562 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http) 
+2019-03-30 14:48:32.565 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:48:32.566 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:48:32.661 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat-1].[localhost].[/actuator] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:48:32.663 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 739 ms 
+2019-03-30 14:48:32.715 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint 
+2019-03-30 14:48:32.716 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint 
+2019-03-30 14:48:32.748 [restartedMain] INFO 
+                o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 23 endpoint(s) beneath base path '/actuator' 
+2019-03-30 14:48:32.972 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path '/actuator' 
+2019-03-30 14:48:32.974 [restartedMain] INFO 
+                o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8181 
+2019-03-30 14:48:33.009 [restartedMain] INFO 
+                o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+2019-03-30 14:48:33.150 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+2019-03-30 14:48:33.946 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+2019-03-30 14:48:33.946 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+2019-03-30 14:48:34.218 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+2019-03-30 14:48:34.226 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+2019-03-30 14:48:34.706 [restartedMain] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:48:34.958 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:48:34.958 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:48:34.968 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:48:34.969 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:48:34.969 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:48:34.969 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: true 
+2019-03-30 14:48:34.969 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:48:35.280 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:48:35.286 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+2019-03-30 14:48:35.291 [restartedMain] INFO 
+                com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+2019-03-30 14:48:35.299 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553928515296 with initial instances count: 1 
+2019-03-30 14:48:35.325 [restartedMain] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TAOTASK with eureka with status UP 
+2019-03-30 14:48:35.326 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928515326, current=UP, previous=STARTING] 
+2019-03-30 14:48:35.334 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:48:35.481 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:48:35.910 [restartedMain] INFO 
+                o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing 
+2019-03-30 14:48:35.926 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '/taotask' 
+2019-03-30 14:48:35.926 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - Started TaotaskApplication in 26.93 seconds (JVM running for 28.232) 
+2019-03-30 14:48:55.237 [http-nio-81-exec-1] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-03-30 14:48:55.238 [http-nio-81-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-03-30 14:48:55.269 [http-nio-81-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms 
+2019-03-30 14:48:55.564 [http-nio-81-exec-1] ERROR
+                o.s.c.sleuth.instrument.web.ExceptionLoggingFilter - Uncaught exception thrown 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+### The error may involve com.youmeng.taotask.mapper.TasklogMapper.insertTaskLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into tasklog (tasklogId,msg,time,taskId,goodid,title) values (?,?,?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+; Data truncation: Data too long for column 'goodid' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1013)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:151)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+### The error may involve com.youmeng.taotask.mapper.TasklogMapper.insertTaskLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into tasklog (tasklogId,msg,time,taskId,goodid,title) values (?,?,?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+; Data truncation: Data too long for column 'goodid' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:104)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy146.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:68)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy151.insertTaskLog(Unknown Source)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl.insertTasklog(TasklogServiceImpl.java:26)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$FastClassBySpringCGLIB$$afcfd201.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$EnhancerBySpringCGLIB$$3cad6ccd.insertTasklog(<generated>)
+	at com.youmeng.taotask.controller.TasklogController.test2(TasklogController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	... 60 common frames omitted
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:391)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy210.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 84 common frames omitted
+2019-03-30 14:48:55.583 [http-nio-81-exec-1] ERROR
+                o.a.c.c.C.[.[.[/taotask].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/taotask] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+### The error may involve com.youmeng.taotask.mapper.TasklogMapper.insertTaskLog-Inline
+### The error occurred while setting parameters
+### SQL: insert into tasklog (tasklogId,msg,time,taskId,goodid,title) values (?,?,?,?,?,?)
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+; Data truncation: Data too long for column 'goodid' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1] with root cause 
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'goodid' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:391)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy210.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy146.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at com.baomidou.mybatisplus.core.override.PageMapperMethod.execute(PageMapperMethod.java:68)
+	at com.baomidou.mybatisplus.core.override.PageMapperProxy.invoke(PageMapperProxy.java:64)
+	at com.sun.proxy.$Proxy151.insertTaskLog(Unknown Source)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl.insertTasklog(TasklogServiceImpl.java:26)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$FastClassBySpringCGLIB$$afcfd201.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.youmeng.taotask.serviceImpl.TasklogServiceImpl$$EnhancerBySpringCGLIB$$3cad6ccd.insertTasklog(<generated>)
+	at com.youmeng.taotask.controller.TasklogController.test2(TasklogController.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:151)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:86)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-30 14:53:34.974 [AsyncResolver-bootstrap-executor-0] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:53:57.657 [Thread-9] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application TAOTASK with eureka with status DOWN 
+2019-03-30 14:53:57.675 [Thread-9] WARN 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928837675, current=DOWN, previous=UP] 
+2019-03-30 14:53:57.675 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:53:57.707 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:53:57.993 [Thread-9] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:53:58.021 [Thread-9] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:53:59.195 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+2019-03-30 14:54:02.202 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Unregistering ... 
+2019-03-30 14:54:02.207 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - deregister  status: 200 
+2019-03-30 14:54:02.217 [Thread-9] INFO 
+                com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+2019-03-30 14:54:02.218 [Thread-9] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated... 
+2019-03-30 14:54:02.222 [Thread-9] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed. 
+2019-03-30 14:54:03.472 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f455ae4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:54:04.091 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - The following profiles are active: taotask1 
+2019-03-30 14:54:05.095 [restartedMain] WARN 
+                org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.youmeng.taotask.mapper.mapper*]' package. Please check your configuration. 
+2019-03-30 14:54:05.420 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:54:05.420 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:54:05.450 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces. 
+2019-03-30 14:54:05.456 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-03-30 14:54:05.457 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-03-30 14:54:05.483 [restartedMain] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces. 
+2019-03-30 14:54:05.706 [restartedMain] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eb2cf80d-5d5b-325b-bd8d-ae06ae618f13 
+2019-03-30 14:54:05.785 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d83bab52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:54:05.816 [restartedMain] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f455ae4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-03-30 14:54:06.319 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-03-30 14:54:06.326 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:54:06.326 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:54:06.388 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat].[localhost].[/taotask] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:54:06.388 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2291 ms 
+2019-03-30 14:54:06.529 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:54:06.529 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:54:06.529 [restartedMain] INFO 
+                com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@eec292 
+2019-03-30 14:54:07.334 [restartedMain] WARN 
+                com.zaxxer.hikari.HikariConfig - MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it. 
+2019-03-30 14:54:07.336 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Starting... 
+2019-03-30 14:54:07.336 [restartedMain] WARN 
+                com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation. 
+2019-03-30 14:54:07.346 [restartedMain] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Start completed. 
+2019-03-30 14:54:07.380 [restartedMain] INFO 
+                org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2019-03-30 14:54:07.481 [restartedMain] INFO 
+                org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+2019-03-30 14:54:07.734 [restartedMain] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:54:07.876 [restartedMain] INFO 
+                o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2019-03-30 14:54:09.039 [restartedMain] WARN 
+                com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+2019-03-30 14:54:09.042 [restartedMain] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+2019-03-30 14:54:10.401 [restartedMain] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:54:10.736 [restartedMain] WARN 
+                org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead. 
+2019-03-30 14:54:13.854 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8181 (http) 
+2019-03-30 14:54:13.860 [restartedMain] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-03-30 14:54:13.860 [restartedMain] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13 
+2019-03-30 14:54:13.896 [restartedMain] INFO 
+                o.a.c.c.C.[Tomcat-1].[localhost].[/actuator] - Initializing Spring embedded WebApplicationContext 
+2019-03-30 14:54:13.896 [restartedMain] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 386 ms 
+2019-03-30 14:54:13.912 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/jolokia' to jolokia-actuator-endpoint 
+2019-03-30 14:54:13.912 [restartedMain] INFO 
+                o.s.b.a.endpoint.web.ServletEndpointRegistrar - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint 
+2019-03-30 14:54:13.912 [restartedMain] INFO 
+                o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 23 endpoint(s) beneath base path '/actuator' 
+2019-03-30 14:54:13.959 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8181 (http) with context path '/actuator' 
+2019-03-30 14:54:13.959 [restartedMain] INFO 
+                o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8181 
+2019-03-30 14:54:13.974 [restartedMain] INFO 
+                o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+2019-03-30 14:54:13.974 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+2019-03-30 14:54:13.990 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+2019-03-30 14:54:13.990 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+2019-03-30 14:54:13.990 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+2019-03-30 14:54:13.990 [restartedMain] INFO 
+                c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+2019-03-30 14:54:14.099 [restartedMain] INFO 
+                c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: true 
+2019-03-30 14:54:14.115 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:54:14.131 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:54:14.131 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+2019-03-30 14:54:14.131 [restartedMain] INFO 
+                com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+2019-03-30 14:54:14.131 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553928854131 with initial instances count: 0 
+2019-03-30 14:54:14.156 [restartedMain] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application TAOTASK with eureka with status UP 
+2019-03-30 14:54:14.156 [restartedMain] INFO 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553928854156, current=UP, previous=STARTING] 
+2019-03-30 14:54:14.158 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:54:14.173 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:54:14.715 [restartedMain] INFO 
+                o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing 
+2019-03-30 14:54:14.730 [restartedMain] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '/taotask' 
+2019-03-30 14:54:14.730 [restartedMain] INFO 
+                com.youmeng.taotask.TaotaskApplication - Started TaotaskApplication in 11.918 seconds (JVM running for 367.033) 
+2019-03-30 14:54:14.746 [restartedMain] INFO 
+                o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2019-03-30 14:54:44.149 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Disable delta property : false 
+2019-03-30 14:54:44.150 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+2019-03-30 14:54:44.152 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+2019-03-30 14:54:44.153 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Application is null : false 
+2019-03-30 14:54:44.154 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+2019-03-30 14:54:44.156 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Application version is -1: false 
+2019-03-30 14:54:44.157 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+2019-03-30 14:54:44.164 [DiscoveryClient-CacheRefreshExecutor-0] INFO 
+                com.netflix.discovery.DiscoveryClient - The response status is 200 
+2019-03-30 14:57:13.263 [Thread-20] INFO 
+                o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application TAOTASK with eureka with status DOWN 
+2019-03-30 14:57:13.264 [Thread-20] WARN 
+                com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553929033264, current=DOWN, previous=UP] 
+2019-03-30 14:57:13.265 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81: registering service... 
+2019-03-30 14:57:13.275 [DiscoveryClient-InstanceInfoReplicator-0] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - registration status: 204 
+2019-03-30 14:57:13.619 [Thread-20] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-03-30 14:57:13.622 [Thread-20] INFO 
+                o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2019-03-30 14:57:14.744 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+2019-03-30 14:57:17.759 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Unregistering ... 
+2019-03-30 14:57:17.764 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - DiscoveryClient_TAOTASK/192.168.0.103:taotask:81 - deregister  status: 200 
+2019-03-30 14:57:17.765 [Thread-20] INFO 
+                com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+2019-03-30 14:57:17.781 [Thread-20] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown initiated... 
+2019-03-30 14:57:17.796 [Thread-20] INFO 
+                com.zaxxer.hikari.HikariDataSource - MyHikariCP - Shutdown completed. 
