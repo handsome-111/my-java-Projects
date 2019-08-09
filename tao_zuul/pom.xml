@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.youmeng</groupId>
+    <artifactId>eureka_parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>zuul</artifactId>
+  <name>tao_zuul</name>
+  <description>tao_zuul</description>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin> 
+    </plugins>
+  </build>
+  <dependencies>
+  		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.retry</groupId>
+			<artifactId>spring-retry</artifactId> 
+		</dependency>
+		<!-- 输出JSON格式日志 -->
+        <dependency>
+        	<groupId>net.logstash.logback</groupId>
+        	<artifactId>logstash-logback-encoder</artifactId>
+        	<version>4.8</version>
+        	<scope>runtime</scope>
+        </dependency>
+        <!-- Smconf -->
+		<!-- <dependency>
+			<groupId>com.cxytiandi</groupId>
+			<artifactId>cxytiandi-conf-client</artifactId>
+			<version>1.0</version>
+		</dependency> -->
+  </dependencies>
+</project>

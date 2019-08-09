@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: taozuul
+eureka: 
+  instance: 
+    hostname : localhost
+  client : 
+    serviceUrl: 
+      defaultZone :  http://root:235610@localhost:8761/eureka
+
+server:
+  port: 2103
+zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+  retryable: true
+  routes:
+    #/taotask/ 开头匹配到taotask的服务名
+    taotask:        #自定义命名
+      path: /tt/**
+      serviceId: taotask    
+    #在网址中输入127.0.0.1：2103/tt/ = 127.0.0.1:81/      127.0.0.1:2103/tt/tt7 = 127.0.0.1:81/tt7     
+    #如果服务taotask由配置属性server.servlet.context-path:taotask     则   127.0.0.1:2103/tt/tt7 = 127.0.0.1:81/taotask/tt7
+    #匹配/github/直接重定向到https://github.com/
+    distribution:
+      path: /dis/**
+      serviceId: distribution
+    github:
+      path: /githubb/**
+      url: https://github.com/    
+    #在网址中输入127.0.0.1:2103/githubb   则会直接跳转到 https://github.com/      127.0.0.1:2103/githubb/aa = https://github.com/aa
+### Ribbon 配置
+#ribbon:
+#  # http建立socket超时时间,毫秒
+#  ConnectTimeout: 2000
+#  # http读取响应socket超时时间
+#  ReadTimeout: 8000
+#  # 同一台实例最大重试次数,不包括首次调用
+#  MaxAutoRetries: 0
+#  # 重试负载均衡其他的实例最大重试次数,不包括首次server
+#  MaxAutoRetriesNextServer: 1
+#  # 是否所有操作都重试，POST请求注意多次提交错误。
+#  # 默认false，设定为false的话，只有get请求会重试
+#  OkToRetryOnAllOperations: true
