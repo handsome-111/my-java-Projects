@@ -1,0 +1,7 @@
+2019-03-24 15:17:19.233  WARN 19360 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-24 15:17:22.304  WARN 19360 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-24 15:17:26.283  WARN 19360 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-24 15:17:30.138  WARN 19360 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-24 15:17:30.145  WARN 19360 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-24 15:17:33.355  WARN 19360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-24 15:17:36.380  WARN 19360 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.

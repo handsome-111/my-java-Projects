@@ -1,0 +1,750 @@
+2019-03-26 15:11:08.441  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3abe33a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:09.238  INFO 16616 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 15:11:10.479  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 15:11:10.479  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 15:11:10.555  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-03-26 15:11:10.561  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 15:11:10.561  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 15:11:10.604  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 15:11:10.604  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 15:11:10.605  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 15:11:10.605  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 15:11:10.605  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 15:11:10.605  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2019-03-26 15:11:10.788  INFO 16616 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=417c9855-859a-3ab6-a925-fe2e41752b64
+2019-03-26 15:11:10.888  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b751f8e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.896  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.900  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@10679e8a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.903  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$dc269b93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.909  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.915  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea430a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:10.932  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3abe33a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:11.600  INFO 16616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 15:11:11.601  INFO 16616 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 15:11:11.601  INFO 16616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 15:11:11.602  INFO 16616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 15:11:11.675  INFO 16616 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 15:11:13.967  INFO 16616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 15:11:13.973  INFO 16616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 15:11:14.666  INFO 16616 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 15:11:15.365  INFO 16616 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 15:11:15.431  INFO 16616 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 15:11:15.431  INFO 16616 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 15:11:15.432  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 15:11:15.432  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 15:11:15.432  INFO 16616 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 15:11:15.432  INFO 16616 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 15:11:15.432  INFO 16616 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 15:11:15.433  INFO 16616 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2e4a8ae7
+2019-03-26 15:11:16.901  INFO 16616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 15:11:17.026  INFO 16616 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11edeedd, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f13b336, org.springframework.security.web.header.HeaderWriterFilter@3b06661b, org.springframework.security.web.authentication.logout.LogoutFilter@1de799d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c08058f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64034727, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@172a8da6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c599ae8, org.springframework.security.web.session.SessionManagementFilter@7522184e, org.springframework.security.web.access.ExceptionTranslationFilter@5ee767dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41f72645]
+2019-03-26 15:11:17.087  INFO 16616 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 15:11:17.657  INFO 16616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 15:11:18.773  INFO 16616 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-26 15:11:20.304  INFO 16616 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 15:11:20.312  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 15:11:20.332  INFO 16616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 15:11:20.332  INFO 16616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 15:11:20.332  INFO 16616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 15:11:20.332  INFO 16616 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 15:11:20.504  INFO 16616 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 15:11:20.510  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 15:11:20.521  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 15:11:20.522  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 15:11:20.523  INFO 16616 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 15:11:20.540  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553584280540 with initial instances count: 1
+2019-03-26 15:11:20.562  INFO 16616 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 15:11:20.562  INFO 16616 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553584280562, current=UP, previous=STARTING]
+2019-03-26 15:11:20.563  INFO 16616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 15:11:20.587  INFO 16616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 15:11:21.118  INFO 16616 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 15:11:21.124  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 15:11:21.126  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 15:11:21.126  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 15:11:21.126  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 15:11:21.126  INFO 16616 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 15:11:21.127  INFO 16616 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 15:11:21.155  INFO 16616 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 15:11:21.158  INFO 16616 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 15:11:21.163  INFO 16616 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 15:11:21.171  INFO 16616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 15:11:21.171  INFO 16616 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 15:11:21.173  INFO 16616 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 13.873 seconds (JVM running for 71396.925)
+2019-03-26 15:11:21.180  INFO 16616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-26 15:11:38.520  INFO 16616 --- [Thread-162] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 15:11:38.524  INFO 16616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 15:11:38.537  INFO 16616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 15:11:38.539  INFO 16616 --- [Thread-162] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 15:11:38.547  INFO 16616 --- [Thread-162] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 15:11:38.550  INFO 16616 --- [Thread-162] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 15:11:38.551  INFO 16616 --- [Thread-162] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 15:11:38.551  INFO 16616 --- [Thread-162] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 15:11:38.553  INFO 16616 --- [Thread-162] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 15:11:38.558  INFO 16616 --- [Thread-162] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 15:11:39.693  INFO 16616 --- [Thread-162] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 15:11:42.695  INFO 16616 --- [Thread-162] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 15:11:42.701  INFO 16616 --- [Thread-162] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 15:11:42.707  INFO 16616 --- [Thread-162] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 15:11:42.708  INFO 16616 --- [Thread-162] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 15:11:42.718  INFO 16616 --- [Thread-162] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 15:11:45.362  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3abe33a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:46.290  INFO 16616 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 15:11:48.058  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 15:11:48.058  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 15:11:48.158  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 5 repository interfaces.
+2019-03-26 15:11:48.167  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 15:11:48.167  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 15:11:48.211  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 15:11:48.211  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 15:11:48.212  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 15:11:48.213  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 15:11:48.213  INFO 16616 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 15:11:48.214  INFO 16616 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 0 repository interfaces.
+2019-03-26 15:11:48.495  INFO 16616 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=417c9855-859a-3ab6-a925-fe2e41752b64
+2019-03-26 15:11:48.608  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b751f8e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.613  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.619  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1eda6f15' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.622  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$dc269b93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.641  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.666  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1ea430a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:48.692  INFO 16616 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3abe33a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 15:11:49.203  INFO 16616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 15:11:49.205  INFO 16616 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 15:11:49.205  INFO 16616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 15:11:49.206  INFO 16616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 15:11:49.264  INFO 16616 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 15:11:52.146  INFO 16616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 15:11:54.298  INFO 16616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 15:11:56.428  INFO 16616 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 15:11:58.449  INFO 16616 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-26 15:11:58.465  INFO 16616 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-26 20:13:46.484  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d9494c52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:47.604  INFO 13808 --- [main] com.youmeng.taoshelf.QuartzTest          : No active profile set, falling back to default profiles: default
+2019-03-26 20:13:49.354  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 20:13:49.364  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 20:13:49.844  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 470ms. Found 5 repository interfaces.
+2019-03-26 20:13:49.874  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 20:13:49.874  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 20:13:49.924  INFO 13808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 20:13:49.924  INFO 13808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 20:13:49.934  INFO 13808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 20:13:49.934  INFO 13808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 20:13:49.934  INFO 13808 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 20:13:49.934  INFO 13808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-03-26 20:13:50.975  INFO 13808 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6db45826-f39f-315f-a580-a46274ab24ad
+2019-03-26 20:13:51.795  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$55dd118f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:51.825  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:51.845  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6df4af5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:51.875  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$7ab1b441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:51.915  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:51.955  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd2f4955] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:52.075  INFO 13808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d9494c52] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 20:13:54.288  INFO 13808 --- [main] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 20:14:00.852  INFO 13808 --- [main] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 20:14:06.022  INFO 13808 --- [main] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 20:14:08.252  INFO 13808 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-26 21:32:03.062  INFO 10180 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-26 21:32:03.402  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:04.214  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 21:32:05.901  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 21:32:05.901  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 21:32:06.221  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 300ms. Found 5 repository interfaces.
+2019-03-26 21:32:06.251  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 21:32:06.251  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 21:32:06.301  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 21:32:06.301  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 21:32:06.301  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 21:32:06.311  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 21:32:06.311  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 21:32:06.311  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-03-26 21:32:07.311  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 21:32:07.862  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:07.882  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:07.892  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@48143a3e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:07.892  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:07.912  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:07.942  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:08.002  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 21:32:09.503  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 21:32:09.517  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 21:32:09.537  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 21:32:09.537  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 21:32:09.567  INFO 10180 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\soft\Git\cmd;C:\soft\TortoiseGit\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-26 21:32:09.807  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 21:32:11.548  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 21:32:11.800  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 21:32:14.000  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 21:32:15.496  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 21:32:15.589  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 21:32:15.589  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 21:32:15.589  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 21:32:15.609  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 21:32:15.609  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 21:32:15.609  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 21:32:15.609  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 21:32:15.609  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@d50fa58
+2019-03-26 21:32:16.909  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 21:32:16.999  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42acf109, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a6995b, org.springframework.security.web.header.HeaderWriterFilter@1455722d, org.springframework.security.web.authentication.logout.LogoutFilter@5f105526, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7350c1db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67127c53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c1b3e30, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45b48fa2, org.springframework.security.web.session.SessionManagementFilter@4422336e, org.springframework.security.web.access.ExceptionTranslationFilter@696083ca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77269ea]
+2019-03-26 21:32:17.070  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 21:32:17.080  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 21:32:17.569  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 21:32:18.950  INFO 10180 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-03-26 21:32:18.955  INFO 10180 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-03-26 21:32:22.510  INFO 10180 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 21:32:22.587  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 21:32:23.247  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 21:32:23.247  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 21:32:23.467  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 21:32:23.477  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 21:32:23.877  INFO 10180 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 21:32:24.236  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 21:32:24.236  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 21:32:24.246  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 21:32:24.246  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 21:32:24.246  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 21:32:24.246  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 21:32:24.246  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 21:32:25.190  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 21:32:25.198  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 21:32:25.199  INFO 10180 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 21:32:25.199  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553607145199 with initial instances count: 0
+2019-03-26 21:32:25.229  INFO 10180 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 21:32:25.229  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553607145229, current=UP, previous=STARTING]
+2019-03-26 21:32:25.229  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 21:32:25.229  INFO 10180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 21:32:25.339  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 21:32:25.349  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 21:32:25.349  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 21:32:25.349  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 21:32:25.349  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 21:32:25.359  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 21:32:25.839  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 21:32:25.999  INFO 10180 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 21:32:26.009  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 21:32:26.019  INFO 10180 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 21:32:26.049  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 21:32:26.049  INFO 10180 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 21:32:26.049  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 24.706 seconds (JVM running for 25.872)
+2019-03-26 21:32:55.203  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 21:32:55.204  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 21:32:55.204  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 21:32:55.204  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 21:32:55.205  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 21:32:55.205  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-03-26 21:32:55.205  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 21:32:55.287  INFO 10180 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 21:37:08.604  INFO 10180 --- [http-nio-80-exec-1] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-26 21:37:24.257  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 21:42:24.260  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 21:47:24.262  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 21:52:24.263  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 21:57:24.265  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:02:24.267  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:07:24.269  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:12:24.272  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:17:24.273  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:22:24.274  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:27:24.283  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:32:24.285  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:37:24.287  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:42:24.292  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:47:24.299  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:52:24.302  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 22:57:24.302  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:02:24.306  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:07:24.312  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:12:24.313  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:17:24.317  INFO 10180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:19:35.487  INFO 10180 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 23:19:35.492  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:19:35.492  INFO 10180 --- [Thread-1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:19:35.520  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:19:35.530  INFO 10180 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:19:35.550  INFO 10180 --- [Thread-1] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 23:19:35.550  INFO 10180 --- [Thread-1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 23:19:35.550  INFO 10180 --- [Thread-1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:19:35.560  INFO 10180 --- [Thread-1] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 23:19:35.570  INFO 10180 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:19:36.783  INFO 10180 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 23:19:39.794  INFO 10180 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 23:19:39.811  INFO 10180 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 23:19:39.831  INFO 10180 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 23:19:39.831  INFO 10180 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 23:19:39.841  INFO 10180 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 23:19:41.694  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:42.444  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 23:19:43.430  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:19:43.430  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:19:43.520  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90ms. Found 5 repository interfaces.
+2019-03-26 23:19:43.530  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:19:43.530  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:19:43.550  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 23:19:43.560  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 23:19:43.560  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 23:19:43.560  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 23:19:43.560  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 23:19:43.560  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-03-26 23:19:43.850  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 23:19:43.970  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:43.980  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:43.980  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@67111a59' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:43.980  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:43.990  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:44.000  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:44.020  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:19:44.575  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 23:19:44.582  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 23:19:44.582  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 23:19:44.584  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 23:19:44.644  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 23:19:45.273  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 23:19:45.283  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 23:19:45.872  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:19:46.576  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 23:19:46.656  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 23:19:46.666  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 23:19:46.666  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1eb7ec87
+2019-03-26 23:19:47.206  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 23:19:47.273  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f503c2d, org.springframework.security.web.context.SecurityContextPersistenceFilter@502a0c34, org.springframework.security.web.header.HeaderWriterFilter@77538f3f, org.springframework.security.web.authentication.logout.LogoutFilter@3387908f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50b7607f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@733f531b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7098283f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9d27f74, org.springframework.security.web.session.SessionManagementFilter@664007a, org.springframework.security.web.access.ExceptionTranslationFilter@60474390, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ecfe70c]
+2019-03-26 23:19:47.303  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 23:19:47.758  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:19:50.507  INFO 10180 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 23:19:50.518  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 23:19:50.538  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 23:19:50.538  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 23:19:50.538  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 23:19:50.538  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 23:19:50.638  INFO 10180 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 23:19:50.678  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 23:19:50.708  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 23:19:50.718  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 23:19:50.718  INFO 10180 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 23:19:50.718  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553613590718 with initial instances count: 1
+2019-03-26 23:19:50.728  INFO 10180 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 23:19:50.728  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553613590728, current=UP, previous=STARTING]
+2019-03-26 23:19:50.738  INFO 10180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 23:19:50.738  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 23:19:50.758  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 23:19:50.785  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:19:51.365  INFO 10180 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 23:19:51.375  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 23:19:51.375  INFO 10180 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 23:19:51.385  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 23:19:51.385  INFO 10180 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 23:19:51.395  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 10.57 seconds (JVM running for 6471.214)
+2019-03-26 23:19:51.395  INFO 10180 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-26 23:22:02.858  INFO 10180 --- [Thread-12] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 23:22:02.864  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:22:02.883  INFO 10180 --- [Thread-12] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:22:02.886  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:22:02.898  INFO 10180 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:22:02.908  INFO 10180 --- [Thread-12] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 23:22:02.908  INFO 10180 --- [Thread-12] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 23:22:02.908  INFO 10180 --- [Thread-12] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:22:02.910  INFO 10180 --- [Thread-12] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 23:22:02.910  INFO 10180 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:22:04.070  INFO 10180 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 23:22:07.081  INFO 10180 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 23:22:07.086  INFO 10180 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 23:22:07.086  INFO 10180 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 23:22:07.086  INFO 10180 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 23:22:07.096  INFO 10180 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 23:22:08.767  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:09.527  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 23:22:10.348  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:22:10.348  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:22:10.438  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 5 repository interfaces.
+2019-03-26 23:22:10.448  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:22:10.448  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 23:22:10.478  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-03-26 23:22:10.679  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 23:22:10.759  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.769  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.769  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2210b5f0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.769  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.779  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.779  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:10.799  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:11.299  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 23:22:11.306  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 23:22:11.306  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 23:22:11.306  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 23:22:11.366  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 23:22:12.491  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 23:22:12.491  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 23:22:13.311  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:22:14.100  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 23:22:14.199  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5db3d69a
+2019-03-26 23:22:14.760  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 23:22:14.830  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cb2f0e, org.springframework.security.web.context.SecurityContextPersistenceFilter@8ee4eda, org.springframework.security.web.header.HeaderWriterFilter@49fed9d1, org.springframework.security.web.authentication.logout.LogoutFilter@9afda76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6af414fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e60a30a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2326e149, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fd062c, org.springframework.security.web.session.SessionManagementFilter@28957d8b, org.springframework.security.web.access.ExceptionTranslationFilter@6e54aa42, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3327dc56]
+2019-03-26 23:22:14.870  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 23:22:15.200  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:22:17.531  INFO 10180 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 23:22:17.534  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 23:22:17.554  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 23:22:17.554  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 23:22:17.554  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 23:22:17.554  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 23:22:17.654  INFO 10180 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:22:17.654  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 23:22:17.654  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 23:22:17.654  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 23:22:17.654  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 23:22:17.664  INFO 10180 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 23:22:17.674  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553613737674 with initial instances count: 1
+2019-03-26 23:22:17.684  INFO 10180 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 23:22:17.684  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553613737684, current=UP, previous=STARTING]
+2019-03-26 23:22:17.684  INFO 10180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 23:22:17.694  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 23:22:17.714  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 23:22:17.734  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:22:18.314  INFO 10180 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 23:22:18.314  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 23:22:18.324  INFO 10180 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 23:22:18.324  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 23:22:18.324  INFO 10180 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 23:22:18.324  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 10.24 seconds (JVM running for 6618.149)
+2019-03-26 23:22:18.334  INFO 10180 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-26 23:22:29.073  INFO 10180 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 23:22:29.079  INFO 10180 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:22:29.089  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:22:29.099  INFO 10180 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:22:29.099  INFO 10180 --- [Thread-22] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 23:22:29.099  INFO 10180 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 23:22:29.099  INFO 10180 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:22:29.099  INFO 10180 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 23:22:29.139  INFO 10180 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:22:29.194  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:22:30.405  INFO 10180 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 23:22:33.412  INFO 10180 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 23:22:33.419  INFO 10180 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 23:22:33.460  INFO 10180 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 23:22:33.460  INFO 10180 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 23:22:33.470  INFO 10180 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 23:22:35.976  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:36.816  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 23:22:37.737  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:22:37.737  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:22:37.837  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100ms. Found 5 repository interfaces.
+2019-03-26 23:22:37.847  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:22:37.847  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 23:22:37.877  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-03-26 23:22:38.127  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 23:22:38.207  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.227  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.227  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@71a43bf4' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.227  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.237  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.237  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.257  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:22:38.848  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 23:22:38.851  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 23:22:38.852  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 23:22:38.852  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 23:22:38.903  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 23:22:39.543  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 23:22:39.553  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 23:22:40.133  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:22:40.856  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 23:22:40.920  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@621919ba
+2019-03-26 23:22:41.450  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 23:22:41.497  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a2782, org.springframework.security.web.context.SecurityContextPersistenceFilter@50cc7cdd, org.springframework.security.web.header.HeaderWriterFilter@df307f9, org.springframework.security.web.authentication.logout.LogoutFilter@21316dba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13410614, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f6c4dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d84fdbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18210cd8, org.springframework.security.web.session.SessionManagementFilter@70e2424a, org.springframework.security.web.access.ExceptionTranslationFilter@4f8a9bac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b2345b1]
+2019-03-26 23:22:41.537  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 23:22:41.767  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:22:43.842  INFO 10180 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 23:22:43.849  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 23:22:43.859  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 23:22:43.859  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 23:22:43.859  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 23:22:43.859  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 23:22:43.939  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 23:22:43.949  INFO 10180 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 23:22:43.949  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553613763949 with initial instances count: 1
+2019-03-26 23:22:43.959  INFO 10180 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 23:22:43.959  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553613763959, current=UP, previous=STARTING]
+2019-03-26 23:22:43.959  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:22:43.959  INFO 10180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 23:22:43.979  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 23:22:43.990  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:22:43.990  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 23:22:43.990  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 23:22:43.990  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 23:22:43.990  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 23:22:44.000  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 23:22:44.560  INFO 10180 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 23:22:44.560  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 23:22:44.570  INFO 10180 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 23:22:44.570  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 23:22:44.570  INFO 10180 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 23:22:44.570  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 9.54 seconds (JVM running for 6644.396)
+2019-03-26 23:22:44.580  INFO 10180 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-26 23:23:58.902  INFO 10180 --- [Thread-32] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 23:23:58.913  INFO 10180 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:23:58.923  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:23:58.953  INFO 10180 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:23:58.953  INFO 10180 --- [Thread-32] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 23:23:58.953  INFO 10180 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 23:23:58.953  INFO 10180 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:23:58.953  INFO 10180 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 23:23:58.963  INFO 10180 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:23:59.002  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:24:01.024  INFO 10180 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 23:24:04.041  INFO 10180 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 23:24:04.048  INFO 10180 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 23:24:04.049  INFO 10180 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 23:24:04.049  INFO 10180 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 23:24:04.059  INFO 10180 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 23:24:05.676  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:06.316  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 23:24:07.543  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:24:07.543  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:24:07.603  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 5 repository interfaces.
+2019-03-26 23:24:07.603  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:24:07.603  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 23:24:07.623  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-03-26 23:24:07.803  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 23:24:07.893  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.893  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.893  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1e7ae098' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.893  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.903  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.903  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:07.913  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:24:08.343  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 23:24:08.353  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 23:24:08.353  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 23:24:08.353  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 23:24:08.403  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 23:24:08.837  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 23:24:08.837  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 23:24:09.297  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:24:09.787  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 23:24:09.856  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@154d1167
+2019-03-26 23:24:10.346  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 23:24:10.396  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ac49ea6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e8614e4, org.springframework.security.web.header.HeaderWriterFilter@4e1adbaa, org.springframework.security.web.authentication.logout.LogoutFilter@75e72322, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@671c5388, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a0bdd62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@136de682, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3aa5ed94, org.springframework.security.web.session.SessionManagementFilter@13a83417, org.springframework.security.web.access.ExceptionTranslationFilter@566cc29d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@156fdc50]
+2019-03-26 23:24:10.426  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 23:24:10.646  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:24:13.213  INFO 10180 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-26 23:24:13.227  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-26 23:24:13.237  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-26 23:24:13.237  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-26 23:24:13.237  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-26 23:24:13.237  INFO 10180 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-26 23:24:13.417  INFO 10180 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-26 23:24:13.417  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-03-26 23:24:13.437  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-03-26 23:24:13.447  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-03-26 23:24:13.447  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-03-26 23:24:13.447  INFO 10180 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-03-26 23:24:13.457  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553613853457 with initial instances count: 1
+2019-03-26 23:24:13.467  INFO 10180 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-03-26 23:24:13.467  INFO 10180 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553613853467, current=UP, previous=STARTING]
+2019-03-26 23:24:13.467  INFO 10180 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-03-26 23:24:13.487  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-03-26 23:24:13.497  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-03-26 23:24:13.497  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-03-26 23:24:13.497  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-03-26 23:24:13.507  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-03-26 23:24:13.507  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-03-26 23:24:13.567  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:24:13.613  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:24:14.144  INFO 10180 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-26 23:24:14.154  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-03-26 23:24:14.154  INFO 10180 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-26 23:24:14.164  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-03-26 23:24:14.164  INFO 10180 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-03-26 23:24:14.164  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 9.244 seconds (JVM running for 6733.989)
+2019-03-26 23:24:14.174  INFO 10180 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-26 23:25:25.894  INFO 10180 --- [Thread-42] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-03-26 23:25:25.900  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-03-26 23:25:25.900  INFO 10180 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:25:25.917  INFO 10180 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-03-26 23:25:25.917  INFO 10180 --- [Thread-42] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-26 23:25:25.917  INFO 10180 --- [Thread-42] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-03-26 23:25:25.917  INFO 10180 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-03-26 23:25:25.917  INFO 10180 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-03-26 23:25:25.917  INFO 10180 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-03-26 23:25:25.927  INFO 10180 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:25:27.057  INFO 10180 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-26 23:25:30.069  INFO 10180 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-03-26 23:25:30.074  INFO 10180 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-03-26 23:25:30.075  INFO 10180 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-26 23:25:30.075  INFO 10180 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-03-26 23:25:30.075  INFO 10180 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-03-26 23:25:31.578  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:32.198  INFO 10180 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-03-26 23:25:32.882  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:25:32.882  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:25:32.932  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 5 repository interfaces.
+2019-03-26 23:25:32.932  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-26 23:25:32.932  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-03-26 23:25:32.952  INFO 10180 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-03-26 23:25:33.082  INFO 10180 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-03-26 23:25:33.142  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$28002eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.152  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.152  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@646be0aa' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.152  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$2754a59d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.152  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.162  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$69d23ab1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.172  INFO 10180 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85ec3dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-26 23:25:33.542  INFO 10180 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-03-26 23:25:33.542  INFO 10180 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-03-26 23:25:33.542  INFO 10180 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-26 23:25:33.542  INFO 10180 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-26 23:25:33.592  INFO 10180 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-03-26 23:25:34.113  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-03-26 23:25:34.115  INFO 10180 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-03-26 23:25:34.565  INFO 10180 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-26 23:25:35.115  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-03-26 23:25:35.185  INFO 10180 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@639a2f10
+2019-03-26 23:25:35.725  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-03-26 23:25:35.765  INFO 10180 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@503061f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fa5e011, org.springframework.security.web.header.HeaderWriterFilter@4a28322b, org.springframework.security.web.authentication.logout.LogoutFilter@4a0503b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@231d2f7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56d9c7f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35f34c22, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e4880eb, org.springframework.security.web.session.SessionManagementFilter@249987b5, org.springframework.security.web.access.ExceptionTranslationFilter@4522c2be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@85fd4c3]
+2019-03-26 23:25:35.775  INFO 10180 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-26 23:25:35.975  INFO 10180 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'

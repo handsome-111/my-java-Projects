@@ -1,0 +1,180 @@
+2019-02-24 14:24:13.219  INFO 22648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-24 14:24:13.677  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3d34f286] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:15.820  INFO 22648 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-02-24 14:24:17.687  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 14:24:17.691  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 14:24:18.031  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 325ms. Found 5 repository interfaces.
+2019-02-24 14:24:18.052  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 14:24:18.053  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 14:24:18.115  INFO 22648 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-02-24 14:24:18.129  INFO 22648 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-02-24 14:24:18.132  INFO 22648 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-02-24 14:24:18.134  INFO 22648 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-02-24 14:24:18.138  INFO 22648 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-02-24 14:24:18.138  INFO 22648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+2019-02-24 14:24:19.205  INFO 22648 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f415dc33-896e-3088-8cc0-adb75eef9457
+2019-02-24 14:24:19.612  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b9c8b7c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.621  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.623  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5959091a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.629  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$de9d5a75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.635  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.655  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$211aef89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:19.732  INFO 22648 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3d34f286] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:24:21.368  INFO 22648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-02-24 14:24:21.398  INFO 22648 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-02-24 14:24:21.419  INFO 22648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-24 14:24:21.420  INFO 22648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-24 14:24:21.444  INFO 22648 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-24 14:24:21.815  INFO 22648 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-02-24 14:24:23.089  INFO 22648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-02-24 14:24:23.396  INFO 22648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-02-24 14:24:26.410  INFO 22648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-24 14:24:26.868  INFO 22648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-24 14:24:26.925  INFO 22648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-02-24 14:24:26.972  INFO 22648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-02-24 14:24:26.976  INFO 22648 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-02-24 14:24:27.051  INFO 22648 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-02-24 14:26:16.766  INFO 47544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-24 14:26:17.182  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1dcad629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:19.076  INFO 47544 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-02-24 14:26:20.965  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 14:26:20.968  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 14:26:21.304  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 323ms. Found 5 repository interfaces.
+2019-02-24 14:26:21.334  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-24 14:26:21.338  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-24 14:26:21.381  INFO 47544 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-02-24 14:26:21.385  INFO 47544 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-02-24 14:26:21.388  INFO 47544 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-02-24 14:26:21.388  INFO 47544 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-02-24 14:26:21.389  INFO 47544 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-02-24 14:26:21.389  INFO 47544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2019-02-24 14:26:22.516  INFO 47544 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f415dc33-896e-3088-8cc0-adb75eef9457
+2019-02-24 14:26:22.848  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$9a5e9b66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.861  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.864  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49d61687' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.867  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$bf333e18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.878  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.907  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1b0d32c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:22.956  INFO 47544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1dcad629] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-24 14:26:24.376  INFO 47544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-02-24 14:26:24.395  INFO 47544 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-02-24 14:26:24.421  INFO 47544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-02-24 14:26:24.422  INFO 47544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-24 14:26:24.441  INFO 47544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-24 14:26:24.723  INFO 47544 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-02-24 14:26:25.934  INFO 47544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-02-24 14:26:26.303  INFO 47544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-02-24 14:26:30.667  INFO 47544 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-24 14:26:32.291  INFO 47544 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-02-24 14:26:32.436  INFO 47544 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-02-24 14:26:32.438  INFO 47544 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-02-24 14:26:32.443  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-02-24 14:26:32.448  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-02-24 14:26:32.451  INFO 47544 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-02-24 14:26:32.451  INFO 47544 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-02-24 14:26:32.452  INFO 47544 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-02-24 14:26:32.452  INFO 47544 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@539f7625
+2019-02-24 14:26:34.429  INFO 47544 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-02-24 14:26:34.597  INFO 47544 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e184e61, org.springframework.security.web.context.SecurityContextPersistenceFilter@2bca391, org.springframework.security.web.header.HeaderWriterFilter@16128491, org.springframework.security.web.authentication.logout.LogoutFilter@3f131fe5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30f9875f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bcf4cd3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46a08b27, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52a7f782, org.springframework.security.web.session.SessionManagementFilter@71f75d24, org.springframework.security.web.access.ExceptionTranslationFilter@6d00cd6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a152af3]
+2019-02-24 14:26:34.898  INFO 47544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-24 14:26:35.064  INFO 47544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-02-24 14:26:35.416  INFO 47544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-24 14:26:36.781  INFO 47544 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-02-24 14:26:36.784  INFO 47544 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-02-24 14:26:39.821  INFO 47544 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-02-24 14:26:41.560  INFO 47544 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-02-24 14:26:41.943  INFO 47544 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-02-24 14:26:42.046  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-02-24 14:26:42.902  INFO 47544 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-02-24 14:26:42.903  INFO 47544 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-02-24 14:26:43.124  INFO 47544 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-02-24 14:26:43.125  INFO 47544 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-02-24 14:26:43.601  INFO 47544 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:26:43.929  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-02-24 14:26:43.930  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-02-24 14:26:43.930  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-02-24 14:26:43.930  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-02-24 14:26:43.931  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-02-24 14:26:43.931  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-02-24 14:26:43.931  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-02-24 14:26:44.287  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-02-24 14:26:44.291  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-02-24 14:26:44.295  INFO 47544 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-02-24 14:26:44.300  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1550989604298 with initial instances count: 3
+2019-02-24 14:26:44.308  INFO 47544 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-02-24 14:26:44.309  INFO 47544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1550989604309, current=UP, previous=STARTING]
+2019-02-24 14:26:44.319  INFO 47544 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-02-24 14:26:44.317  INFO 47544 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/localhost:taoshelf:80: registering service...
+2019-02-24 14:26:44.444  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-02-24 14:26:44.458  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-02-24 14:26:44.458  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-02-24 14:26:44.462  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-02-24 14:26:44.464  INFO 47544 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-02-24 14:26:44.465  INFO 47544 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-02-24 14:26:44.532  INFO 47544 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/localhost:taoshelf:80 - registration status: 204
+2019-02-24 14:26:45.202  INFO 47544 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-02-24 14:26:45.218  INFO 47544 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-02-24 14:26:45.227  INFO 47544 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-02-24 14:26:45.283  INFO 47544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-02-24 14:26:45.284  INFO 47544 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-02-24 14:26:45.290  INFO 47544 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 31.254 seconds (JVM running for 32.959)
+2019-02-24 14:28:14.253  INFO 47544 --- [http-nio-80-exec-7] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-24 14:31:43.935  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:36:43.938  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:41:43.940  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:46:43.941  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:51:43.942  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 14:56:43.944  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:01:43.946  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:06:43.947  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:11:43.949  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:16:43.951  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:21:43.953  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:26:43.954  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:31:43.956  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:36:43.957  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:41:43.958  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:46:43.959  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:51:43.961  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 15:56:43.963  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:01:43.965  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:06:43.966  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:11:43.968  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:16:43.970  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:21:43.971  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:26:43.974  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:31:43.976  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:36:43.978  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:41:43.978  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:46:43.980  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:51:43.982  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 16:56:43.983  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:01:43.986  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:06:43.987  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:11:43.989  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:16:43.989  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:21:43.991  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:26:43.991  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:31:43.993  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:36:43.995  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:41:43.997  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:46:43.998  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:51:44.000  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 17:56:44.002  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:01:44.002  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:06:44.004  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:11:44.006  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:16:44.008  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:21:44.009  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:26:44.010  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:31:44.011  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-02-24 18:36:44.012  INFO 47544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

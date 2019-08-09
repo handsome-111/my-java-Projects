@@ -1,0 +1,118 @@
+2019-03-28 20:27:29.628  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 20:27:35.755  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 20:27:35.758  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 20:27:38.769  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 20:27:41.848  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 20:27:41.848  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 20:41:38.611  WARN 11020 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553776898611, current=DOWN, previous=UP]
+2019-03-28 20:41:45.968  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 20:41:48.204  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 20:41:48.204  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 20:41:48.932  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 20:41:50.554  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 20:48:06.908  WARN 11020 --- [Thread-12] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553777286908, current=DOWN, previous=UP]
+2019-03-28 20:48:14.168  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 20:48:16.085  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 20:48:16.085  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 20:48:16.784  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 20:48:18.089  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:10:13.061  WARN 11020 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553778613061, current=DOWN, previous=UP]
+2019-03-28 21:10:21.897  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:10:23.437  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:10:23.437  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:10:23.973  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:10:25.433  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:13:02.969  WARN 11020 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553778782969, current=DOWN, previous=UP]
+2019-03-28 21:13:09.662  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:13:10.973  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:13:10.988  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:13:11.473  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:13:12.526  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:13:35.633  WARN 11020 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553778815633, current=DOWN, previous=UP]
+2019-03-28 21:13:42.327  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:13:43.608  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:13:43.612  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:13:44.116  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:13:45.163  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:13:58.099  WARN 11020 --- [Thread-52] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553778838099, current=DOWN, previous=UP]
+2019-03-28 21:14:04.739  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:14:05.927  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:14:05.936  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:14:06.375  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:14:07.333  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:30:40.928  WARN 11020 --- [Thread-62] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553779840928, current=DOWN, previous=UP]
+2019-03-28 21:30:47.771  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:30:48.980  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:30:48.984  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:30:49.447  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:30:50.425  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:43:55.446  WARN 11020 --- [Thread-72] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553780635446, current=DOWN, previous=UP]
+2019-03-28 21:44:00.775  WARN 11020 --- [Thread-72] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:44:01.978  WARN 11020 --- [Thread-72] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:44:07.129  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:44:08.807  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:44:08.807  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:44:09.902  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:44:10.860  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:46:03.785  WARN 11020 --- [Thread-82] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553780763785, current=DOWN, previous=UP]
+2019-03-28 21:46:09.077  WARN 11020 --- [Thread-82] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:46:10.102  WARN 11020 --- [Thread-82] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:46:13.770  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:46:15.025  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:46:15.037  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:46:15.509  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:46:16.471  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:50:45.495  WARN 11020 --- [Thread-92] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781045495, current=DOWN, previous=UP]
+2019-03-28 21:50:49.723  WARN 11020 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2019-03-28 21:50:49.723  WARN 11020 --- [DiscoveryClient-1] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2019-03-28 21:50:49.898  WARN 11020 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:49.898  WARN 11020 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:50.742  WARN 11020 --- [Thread-92] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:50.920  WARN 11020 --- [DiscoveryClient-HeartbeatExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:51.000  WARN 11020 --- [DiscoveryClient-CacheRefreshExecutor-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:51.921  WARN 11020 --- [Thread-92] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:50:56.563  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:50:58.950  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:50:58.950  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:50:59.672  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:51:00.833  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:51:07.266  WARN 11020 --- [Thread-102] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781067266, current=DOWN, previous=UP]
+2019-03-28 21:51:12.655  WARN 11020 --- [Thread-102] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:51:13.686  WARN 11020 --- [Thread-102] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:51:17.160  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:51:18.811  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:51:18.811  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:51:19.311  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:51:20.669  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:53:11.878  WARN 11020 --- [Thread-112] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781191878, current=DOWN, previous=UP]
+2019-03-28 21:53:17.145  WARN 11020 --- [Thread-112] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:53:18.161  WARN 11020 --- [Thread-112] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2019-03-28 21:53:22.778  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:53:24.324  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:53:24.340  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:53:24.830  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:53:25.673  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:53:59.044  WARN 11020 --- [Thread-122] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781239044, current=DOWN, previous=UP]
+2019-03-28 21:54:06.699  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:54:08.067  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:54:08.078  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:54:08.517  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:54:09.347  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:54:29.875  WARN 11020 --- [Thread-132] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781269875, current=DOWN, previous=UP]
+2019-03-28 21:54:36.571  WARN 11020 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:54:39.108  WARN 11020 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:54:39.119  WARN 11020 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:54:39.840  WARN 11020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:54:40.946  WARN 11020 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:56:41.339  WARN 16248 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:56:47.879  WARN 16248 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:56:47.903  WARN 16248 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:56:51.285  WARN 16248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:56:54.447  WARN 16248 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:56:54.463  WARN 16248 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-28 21:57:46.579  WARN 16248 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1553781466579, current=DOWN, previous=UP]
+2019-03-28 21:57:53.837  WARN 16248 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.youmeng.taoshelf.mapper.mapper*]' package. Please check your configuration.
+2019-03-28 21:57:55.610  WARN 16248 --- [restartedMain] com.zaxxer.hikari.HikariConfig           : MyHikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2019-03-28 21:57:55.610  WARN 16248 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-03-28 21:57:56.230  WARN 16248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-28 21:57:57.623  WARN 16248 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.

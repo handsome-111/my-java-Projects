@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youmeng.taoshelf.mapper.TaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.youmeng.taoshelf.entity.Task">
+        <id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="end_time" property="endTime" />
+        <result column="num" property="num" />
+        <result column="start_time" property="startTime" />
+        <result column="status" property="status" />
+        <result column="type" property="type" />
+        <result column="taskType" property="taskType" />
+        <result column="user_nick" property="userNick" />
+    </resultMap>
+	<!--任务,任务日志 -->
+	<resultMap id="tasklogsResultMap" type="com.youmeng.taoshelf.entity.Task">
+		<id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="end_time" property="endTime" />
+        <result column="num" property="num" />
+        <result column="start_time" property="startTime" />
+        <result column="status" property="status" />
+        <result column="taskType" property="taskType" />
+        <result column="type" property="type" />
+        <!-- 任务日志 -->
+        <collection property="taskLogs" ofType="com.youmeng.taoshelf.entity.Tasklog">
+			<id column="tasklogId" property="tasklogId" />
+	        <result column="msg" property="msg" />
+	        <result column="time" property="time" />
+		</collection>
+	</resultMap>
+	<!-- 任务,用户 -->
+	<resultMap id="taskUserResultMap" type="com.youmeng.taoshelf.entity.Task">
+		<id column="id" property="id" />
+        <result column="create_time" property="createTime" />
+        <result column="end_time" property="endTime" />
+        <result column="num" property="num" />
+        <result column="start_time" property="startTime" />
+        <result column="status" property="status" />
+        <result column="taskType" property="taskType" />
+        <result column="type" property="type" />
+        <!-- property: 指的是属性的值, javaType：指的是属性的类型-->
+        <association property="user" column="user_nick" javaType="com.youmeng.taoshelf.entity.User">
+			<id column="nick" property="nick" />
+	        <result column="deleted" property="deleted" />
+	        <result column="end_time" property="endTime" />
+	        <result column="join_time" property="joinTime" />
+	        <result column="session_key1" property="sessionKey1" />
+	        <result column="session_key2" property="sessionKey2" />
+	        <result column="end_date1" property="endDate1" />
+	        <result column="end_date2" property="endDate2" />
+		</association>
+	</resultMap>
+	<!-- 根据任务ID获取任务日志 -->
+	<select id="getTaskLogsByTask" resultMap="tasklogsResultMap">
+		SELECT * FROM task t1 LEFT JOIN tasklog t2 ON t1.id = t2.tasklogId WHERE t1.id = #{id};
+	</select>
+	<!-- 根据ID获取任务信息和用户信息 -->
+	<select id="getTaskById" resultMap="taskUserResultMap">
+		SELECT * FROM task t1 LEFT JOIN user u ON t1.user_nick = u.nick WHERE t1.id = #{id};
+	</select>
+	<!-- 更新任务信息，不包括 -->
+	<update id="updateTask">
+		UPDATE task SET 
+			create_time = #{createTime},
+			end_time = #{endTime},
+			num = #{num},
+			start_time = #{startTime},
+			status = #{status},
+			taskType = #{taskType},
+			type = #{type} 
+			<if test="user != null">
+				,user_nick = #{user.nick}
+		    </if>
+		where id = #{id};
+	</update>
+</mapper>

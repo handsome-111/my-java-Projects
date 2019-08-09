@@ -1,0 +1,946 @@
+2019-01-28 00:06:11.563  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:12.344  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:06:13.618  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:06:13.618  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:06:13.728  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110ms. Found 5 repository interfaces.
+2019-01-28 00:06:13.743  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:06:13.743  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:06:13.775  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:06:13.775  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:06:13.790  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:06:13.790  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:06:13.790  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:06:13.790  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-01-28 00:06:14.118  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:06:14.279  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.295  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.295  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@58122372' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.295  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.295  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.310  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:14.326  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:06:15.344  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:06:15.352  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:06:15.352  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:06:15.352  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:06:15.414  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:06:16.148  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:06:16.148  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:06:16.821  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:06:17.834  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:06:17.926  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@73ad0f14
+2019-01-28 00:06:20.327  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:06:21.071  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6648ac7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b33926, org.springframework.security.web.header.HeaderWriterFilter@4f1cc6bb, org.springframework.security.web.authentication.logout.LogoutFilter@47b57ea7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e03cda1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@237ea363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f99a7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@378c42f6, org.springframework.security.web.session.SessionManagementFilter@5bad8364, org.springframework.security.web.access.ExceptionTranslationFilter@4d0736dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cebe6a3]
+2019-01-28 00:06:21.290  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:06:22.024  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:06:25.179  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:06:25.194  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-28 00:06:25.194  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-28 00:06:25.194  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-28 00:06:25.194  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-28 00:06:25.194  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-28 00:06:25.272  INFO 7076 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-28 00:06:25.288  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-28 00:06:25.304  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-28 00:06:25.304  INFO 7076 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-28 00:06:25.304  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1548605185304 with initial instances count: 1
+2019-01-28 00:06:25.319  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-01-28 00:06:25.319  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1548605185319, current=UP, previous=STARTING]
+2019-01-28 00:06:25.319  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:06:25.319  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-01-28 00:06:25.335  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-01-28 00:06:25.335  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-01-28 00:06:25.335  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-01-28 00:06:25.351  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-01-28 00:06:25.351  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-01-28 00:06:25.351  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-01-28 00:06:25.358  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:06:25.899  INFO 7076 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-01-28 00:06:25.901  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-01-28 00:06:25.903  INFO 7076 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-01-28 00:06:25.908  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-01-28 00:06:25.909  INFO 7076 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-01-28 00:06:25.910  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 15.088 seconds (JVM running for 584.587)
+2019-01-28 00:06:25.915  INFO 7076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-28 00:06:48.658  INFO 7076 --- [http-nio-80-exec-1] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-28 00:06:48.846  INFO 7076 --- [http-nio-80-exec-2] freemarker.beans                         : Detected multiple classes with the same name, "com.youmeng.taoshelf.entity.User". Assuming it was a class-reloading. Clearing class introspection caches to release old data.
+2019-01-28 00:11:25.311  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:12:06.189  INFO 7076 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:12:06.199  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:12:06.199  INFO 7076 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:12:06.215  INFO 7076 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:12:06.215  INFO 7076 --- [Thread-22] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:12:06.215  INFO 7076 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:12:06.215  INFO 7076 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:12:06.224  INFO 7076 --- [Thread-22] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:12:06.225  INFO 7076 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:12:06.227  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:12:07.368  INFO 7076 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-01-28 00:12:10.385  INFO 7076 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-01-28 00:12:10.400  INFO 7076 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-01-28 00:12:10.402  INFO 7076 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-01-28 00:12:10.402  INFO 7076 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:12:10.402  INFO 7076 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:12:11.830  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:12.533  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:12:13.726  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:12:13.726  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:12:14.054  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 312ms. Found 5 repository interfaces.
+2019-01-28 00:12:14.070  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:12:14.070  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:12:14.117  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-01-28 00:12:14.542  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:12:14.716  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.716  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.732  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5382ee52' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.732  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.732  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.732  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:14.747  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:12:15.192  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:12:15.192  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:12:15.208  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:12:15.208  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:12:15.255  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:12:15.758  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:12:15.761  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:12:16.344  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:12:16.953  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:12:17.025  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@360f40c2
+2019-01-28 00:12:17.585  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:12:17.632  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b82f230, org.springframework.security.web.context.SecurityContextPersistenceFilter@60486df9, org.springframework.security.web.header.HeaderWriterFilter@4180a1e4, org.springframework.security.web.authentication.logout.LogoutFilter@582f8fd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@67795199, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47638cf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5fd2c31c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d7ab37e, org.springframework.security.web.session.SessionManagementFilter@5fa1630f, org.springframework.security.web.access.ExceptionTranslationFilter@d63066e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f923188]
+2019-01-28 00:12:17.663  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:12:17.976  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:12:20.182  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:12:20.193  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-28 00:12:20.208  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-28 00:12:20.208  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-28 00:12:20.208  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-28 00:12:20.208  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-28 00:12:20.333  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-28 00:12:20.349  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-28 00:12:20.349  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-28 00:12:20.349  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-28 00:12:20.349  INFO 7076 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-28 00:12:20.349  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1548605540349 with initial instances count: 1
+2019-01-28 00:12:20.365  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-01-28 00:12:20.365  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1548605540365, current=UP, previous=STARTING]
+2019-01-28 00:12:20.365  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-01-28 00:12:20.365  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-01-28 00:12:20.380  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-01-28 00:12:20.409  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:12:20.972  INFO 7076 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-01-28 00:12:20.972  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-01-28 00:12:20.972  INFO 7076 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-01-28 00:12:20.988  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-01-28 00:12:20.988  INFO 7076 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-01-28 00:12:20.988  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 9.782 seconds (JVM running for 939.666)
+2019-01-28 00:12:20.988  INFO 7076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-28 00:13:11.969  INFO 7076 --- [Thread-32] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:13:11.978  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:13:11.978  INFO 7076 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:13:11.993  INFO 7076 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:12.015  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:13:13.163  INFO 7076 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-01-28 00:13:16.182  INFO 7076 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-01-28 00:13:16.189  INFO 7076 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-01-28 00:13:16.190  INFO 7076 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-01-28 00:13:16.190  INFO 7076 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:13:16.190  INFO 7076 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:13:17.694  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:18.288  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:13:19.136  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:19.136  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:19.230  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 5 repository interfaces.
+2019-01-28 00:13:19.246  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:19.246  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:19.277  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:13:19.277  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:13:19.277  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:13:19.293  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:13:19.293  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:13:19.293  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-01-28 00:13:19.511  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:13:19.589  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.605  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.605  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@25798015' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.605  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.605  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.621  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:19.621  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:20.123  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:13:20.127  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:20.128  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:13:20.128  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:13:20.176  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:13:20.832  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:13:20.832  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:13:21.441  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:22.202  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:13:22.248  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:13:22.264  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4ea00bb2
+2019-01-28 00:13:22.860  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:13:22.909  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@930183d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4168ebc0, org.springframework.security.web.header.HeaderWriterFilter@6ad96cb0, org.springframework.security.web.authentication.logout.LogoutFilter@57bb762d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7780f8eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@210a69c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43c38977, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c708a35, org.springframework.security.web.session.SessionManagementFilter@48e6ed00, org.springframework.security.web.access.ExceptionTranslationFilter@5aa091b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@770b8ce]
+2019-01-28 00:13:22.940  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:13:23.252  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:25.465  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:13:25.475  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-28 00:13:25.475  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-28 00:13:25.475  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-28 00:13:25.475  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-28 00:13:25.475  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-28 00:13:25.569  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-28 00:13:25.585  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-28 00:13:25.585  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-28 00:13:25.585  INFO 7076 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-28 00:13:25.585  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1548605605585 with initial instances count: 1
+2019-01-28 00:13:25.600  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-01-28 00:13:25.600  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1548605605600, current=UP, previous=STARTING]
+2019-01-28 00:13:25.600  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-01-28 00:13:25.600  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-01-28 00:13:25.616  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-01-28 00:13:25.640  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:13:26.201  INFO 7076 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-01-28 00:13:26.206  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:26.215  INFO 7076 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-01-28 00:13:26.223  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-01-28 00:13:26.225  INFO 7076 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-01-28 00:13:26.239  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 9.187 seconds (JVM running for 1004.916)
+2019-01-28 00:13:26.246  INFO 7076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-28 00:13:28.578  INFO 7076 --- [Thread-42] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:13:28.583  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:13:28.590  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:13:28.593  INFO 7076 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:28.605  INFO 7076 --- [Thread-42] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:28.607  INFO 7076 --- [Thread-42] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:13:28.608  INFO 7076 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:13:28.608  INFO 7076 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:28.611  INFO 7076 --- [Thread-42] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:13:28.611  INFO 7076 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:29.777  INFO 7076 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-01-28 00:13:32.780  INFO 7076 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2019-01-28 00:13:32.788  INFO 7076 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - deregister  status: 200
+2019-01-28 00:13:32.788  INFO 7076 --- [Thread-42] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-01-28 00:13:32.788  INFO 7076 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:13:32.804  INFO 7076 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:13:34.290  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:34.899  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:13:35.974  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:35.974  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:36.072  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98ms. Found 5 repository interfaces.
+2019-01-28 00:13:36.072  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:36.072  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:13:36.119  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-01-28 00:13:36.284  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:13:36.409  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.409  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.409  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@62e7c76d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.409  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.425  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.425  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.441  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:36.909  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:13:36.910  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:36.911  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:13:36.911  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:13:36.944  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:13:37.444  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:13:37.444  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:13:37.928  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:38.525  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:13:38.603  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2b3622cd
+2019-01-28 00:13:39.181  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:13:39.247  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50dcd818, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fa6df81, org.springframework.security.web.header.HeaderWriterFilter@3d660dee, org.springframework.security.web.authentication.logout.LogoutFilter@96cd8c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1dd30b1a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32bebda6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@730579ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20e96bcf, org.springframework.security.web.session.SessionManagementFilter@7b67806a, org.springframework.security.web.access.ExceptionTranslationFilter@72cb721b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ac90aca]
+2019-01-28 00:13:39.278  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:13:39.872  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:45.286  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:13:45.302  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:45.645  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-28 00:13:45.692  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:46.255  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:13:46.428  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:13:46.442  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:13:47.067  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:47.067  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:47.145  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-01-28 00:13:47.145  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:47.145  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:47.161  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:13:47.161  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:13:47.161  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:13:47.161  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:13:47.177  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:13:47.177  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-01-28 00:13:47.364  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:13:47.458  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.465  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.465  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@758b64ef' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.465  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.481  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.481  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.496  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:47.949  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:13:47.949  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:47.949  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:13:47.949  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:13:47.996  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:13:48.480  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:13:48.484  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:13:48.999  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:49.577  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:13:49.613  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:13:49.613  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:13:49.628  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@30d87b8
+2019-01-28 00:13:50.144  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:13:50.175  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@450d58bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@20c69dbd, org.springframework.security.web.header.HeaderWriterFilter@3ee0feaf, org.springframework.security.web.authentication.logout.LogoutFilter@57fad6a4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7114d854, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13665d55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32c38056, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@540361b1, org.springframework.security.web.session.SessionManagementFilter@2bb6c7f8, org.springframework.security.web.access.ExceptionTranslationFilter@881698e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c51301f]
+2019-01-28 00:13:50.206  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:13:50.550  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:55.602  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:13:55.602  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:13:55.618  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:13:55.618  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:13:55.618  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:13:55.618  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:13:55.633  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:13:55.633  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:13:56.274  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:56.786  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:56.801  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:13:57.208  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:13:57.723  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-28 00:13:57.736  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-28 00:13:57.736  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:13:58.177  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:58.177  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:58.255  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78ms. Found 5 repository interfaces.
+2019-01-28 00:13:58.255  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:58.255  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:13:58.287  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-01-28 00:13:58.521  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:13:58.615  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.615  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.615  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@21b0a54c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.615  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.630  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.630  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.646  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:58.755  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:58.763  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:58.828  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 5 repository interfaces.
+2019-01-28 00:13:58.843  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:13:58.843  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:13:58.859  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:13:58.859  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:13:58.859  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:13:58.859  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:13:58.875  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:13:58.875  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-01-28 00:13:59.093  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:13:59.234  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:13:59.234  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:59.234  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:13:59.234  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:13:59.234  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.250  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.250  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1135ec5b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.250  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.265  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.281  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.296  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:13:59.312  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:13:59.841  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:13:59.844  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:13:59.845  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:13:59.845  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:13:59.893  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:13:59.939  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:13:59.955  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:14:00.693  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:00.756  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:14:00.756  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:14:01.412  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:01.697  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:14:01.759  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@18439368
+2019-01-28 00:14:02.509  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:14:02.585  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2d467519
+2019-01-28 00:14:02.757  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:14:02.835  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a3c880, org.springframework.security.web.context.SecurityContextPersistenceFilter@ea47082, org.springframework.security.web.header.HeaderWriterFilter@3de429d, org.springframework.security.web.authentication.logout.LogoutFilter@6f8b6760, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5a6a515b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@745e38e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4880575b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e34743b, org.springframework.security.web.session.SessionManagementFilter@20f150ba, org.springframework.security.web.access.ExceptionTranslationFilter@6405284, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bfd8bfb]
+2019-01-28 00:14:02.866  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:14:03.508  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:14:03.523  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:03.589  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5146e6a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@f18f982, org.springframework.security.web.header.HeaderWriterFilter@580c3708, org.springframework.security.web.authentication.logout.LogoutFilter@5d50531d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28e3e736, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11141efe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bc8fd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2981b9ce, org.springframework.security.web.session.SessionManagementFilter@6e8a11ac, org.springframework.security.web.access.ExceptionTranslationFilter@23e07607, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ad17c81]
+2019-01-28 00:14:03.886  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:06.404  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:14:06.407  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-01-28 00:14:06.407  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-01-28 00:14:06.407  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-01-28 00:14:06.407  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-01-28 00:14:06.407  INFO 7076 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-01-28 00:14:06.532  INFO 7076 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-01-28 00:14:06.547  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-28 00:14:06.563  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-28 00:14:06.563  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-01-28 00:14:06.563  INFO 7076 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-28 00:14:06.563  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1548605646563 with initial instances count: 0
+2019-01-28 00:14:06.578  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TAOSHELF with eureka with status UP
+2019-01-28 00:14:06.578  INFO 7076 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1548605646578, current=UP, previous=STARTING]
+2019-01-28 00:14:06.578  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80: registering service...
+2019-01-28 00:14:06.578  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-01-28 00:14:06.610  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-01-28 00:14:06.610  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-01-28 00:14:06.610  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Recovery complete.
+2019-01-28 00:14:06.619  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 'complete' triggers.
+2019-01-28 00:14:06.620  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Removed 0 stale fired job entries.
+2019-01-28 00:14:06.622  INFO 7076 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_TAOSHELF/192.168.0.103:taoshelf:80 - registration status: 204
+2019-01-28 00:14:06.622  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-01-28 00:14:06.809  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-28 00:14:06.825  INFO 7076 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-28 00:14:06.856  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:14:06.856  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:14:06.918  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:07.215  INFO 7076 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-01-28 00:14:07.231  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/taoshelf'
+2019-01-28 00:14:07.231  INFO 7076 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 80
+2019-01-28 00:14:07.231  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : Started TaoshelfApplication in 11.988 seconds (JVM running for 1045.918)
+2019-01-28 00:14:07.231  INFO 7076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-01-28 00:14:08.080  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:14:08.104  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:14:36.573  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-01-28 00:14:36.575  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-01-28 00:14:36.577  INFO 7076 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-01-28 00:14:42.068  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-28 00:14:42.084  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-28 00:14:42.084  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:14:42.099  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:42.859  INFO 7076 --- [restartedMain] c.youmeng.taoshelf.TaoshelfApplication   : No active profile set, falling back to default profiles: default
+2019-01-28 00:14:43.124  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:14:43.124  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:14:43.249  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 5 repository interfaces.
+2019-01-28 00:14:43.249  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:14:43.249  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:14:43.280  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-01-28 00:14:43.546  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:14:43.655  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.671  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.671  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14097ceb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.671  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.687  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.687  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:43.749  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.192  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:14:44.192  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:14:44.295  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 5 repository interfaces.
+2019-01-28 00:14:44.295  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-28 00:14:44.295  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-28 00:14:44.342  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.AdminRepository.
+2019-01-28 00:14:44.342  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.CardRepository.
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.LogRepository.
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.TaskRepository.
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.youmeng.taoshelf.repository.UserRepository.
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:14:44.358  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:14:44.464  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:14:44.589  INFO 7076 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=82c8e8df-3373-3c06-84e7-fd35c74b12ae
+2019-01-28 00:14:44.667  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$324bf1de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.667  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.683  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@24c64679' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.683  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$57209490] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.683  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.683  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$999e29a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:44.698  INFO 7076 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5b82ca1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-28 00:14:45.256  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:14:45.267  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:14:45.329  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-01-28 00:14:45.329  INFO 7076 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-80"]
+2019-01-28 00:14:45.329  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-28 00:14:45.329  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-28 00:14:45.376  INFO 7076 --- [restartedMain] o.a.c.c.C.[.[localhost].[/taoshelf]      : Initializing Spring embedded WebApplicationContext
+2019-01-28 00:14:46.032  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:46.235  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Starting...
+2019-01-28 00:14:46.251  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Start completed.
+2019-01-28 00:14:47.001  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:47.333  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:14:47.427  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:14:47.442  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@53222c55
+2019-01-28 00:14:48.052  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:14:48.112  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 500 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@66f67604
+2019-01-28 00:14:48.175  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b93cb15, org.springframework.security.web.context.SecurityContextPersistenceFilter@572dbf95, org.springframework.security.web.header.HeaderWriterFilter@53eb73d7, org.springframework.security.web.authentication.logout.LogoutFilter@67a21006, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4add273c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21abda26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1417afb6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cd414bb, org.springframework.security.web.session.SessionManagementFilter@4e67802a, org.springframework.security.web.access.ExceptionTranslationFilter@720bac6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@355c621]
+2019-01-28 00:14:48.221  INFO 7076 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-28 00:14:48.675  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:48.831  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2019-01-28 00:14:48.909  INFO 7076 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c0b22, org.springframework.security.web.context.SecurityContextPersistenceFilter@617e1ae, org.springframework.security.web.header.HeaderWriterFilter@bd8ae72, org.springframework.security.web.authentication.logout.LogoutFilter@7554f75d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9c6f2cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1119281b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f4f4945, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1da4ddb5, org.springframework.security.web.session.SessionManagementFilter@7659bdb5, org.springframework.security.web.access.ExceptionTranslationFilter@5325efc5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12422694]
+2019-01-28 00:14:49.268  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:51.709  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-28 00:14:51.735  INFO 7076 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-28 00:14:51.735  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:14:51.750  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:14:51.829  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:51.829  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:14:51.829  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:14:51.829  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:14:51.844  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:14:51.844  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:52.219  INFO 7076 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application TAOSHELF with eureka with status DOWN
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2019-01-28 00:14:52.235  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-01-28 00:14:53.002  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:14:53.007  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:14:53.413  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown initiated...
+2019-01-28 00:14:53.428  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : MyHikariCP - Shutdown completed.
+2019-01-28 00:19:06.573  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:24:06.585  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:29:06.593  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:34:06.603  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:39:06.608  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:44:06.613  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:49:06.626  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:54:06.635  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 00:59:06.643  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:04:06.654  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:09:06.666  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:14:06.668  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:19:06.682  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:24:06.701  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:29:06.709  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:34:06.715  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:39:06.722  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:44:06.726  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:49:06.727  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:54:06.728  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 01:59:06.732  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:04:06.746  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:09:06.761  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:14:06.777  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:19:06.780  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:24:06.792  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:29:06.806  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:34:06.808  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:39:06.815  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:44:06.827  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:49:06.832  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:54:06.834  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 02:59:06.844  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:04:06.846  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:09:06.855  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:14:06.860  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:19:06.871  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:24:06.873  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:29:06.875  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:34:06.884  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:39:06.887  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:44:06.899  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:49:06.902  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:54:06.913  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 03:59:06.929  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:04:06.931  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:09:06.943  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:14:06.944  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:19:06.945  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:24:06.948  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:29:06.950  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:34:06.954  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:39:06.964  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:44:06.971  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:49:06.973  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:54:06.981  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 04:59:06.988  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:04:06.989  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:09:06.997  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:14:06.999  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:19:07.011  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:24:07.019  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:29:07.027  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:34:07.029  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:39:07.031  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:44:07.042  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:49:07.043  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:54:07.049  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 05:59:07.057  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:04:07.058  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:09:07.059  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:14:07.060  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:19:07.063  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:24:07.067  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:29:07.080  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:34:07.081  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:39:07.090  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:44:07.092  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:49:07.093  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:54:07.104  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 06:59:07.112  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:04:07.126  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:09:07.127  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:14:07.136  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:19:07.138  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:24:07.139  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:29:07.149  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:34:07.158  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:39:07.171  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:44:07.173  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:49:07.174  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:54:07.175  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 07:59:07.185  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:04:07.197  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:09:07.199  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:14:07.209  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:19:07.210  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:24:07.212  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:29:07.216  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:34:07.232  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:39:07.233  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:44:07.247  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:49:07.260  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:54:07.262  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 08:59:07.264  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:04:07.270  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:09:07.271  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:14:07.284  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:19:07.289  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:24:07.299  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:29:07.301  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:34:07.302  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:39:07.312  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:44:07.313  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:49:07.318  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:54:07.330  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 09:59:07.332  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:04:07.334  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:09:07.345  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:14:07.354  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:19:07.356  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:24:07.366  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:29:07.370  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:34:07.372  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:39:07.374  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:44:07.376  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:49:07.385  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:54:07.398  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 10:59:07.399  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:04:07.401  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:09:07.402  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:14:07.404  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:19:07.414  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:24:07.421  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:29:07.435  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:34:07.437  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:39:07.446  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:44:07.447  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:49:07.449  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:54:07.454  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 11:59:07.456  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:04:07.461  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:09:07.467  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:14:07.472  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:19:07.474  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:24:07.475  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:29:07.486  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:34:07.488  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:39:07.496  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:44:07.498  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:49:07.505  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:54:07.507  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 12:59:07.512  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:04:07.513  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:09:07.514  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:14:07.517  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:19:07.523  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:24:07.528  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:29:07.529  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:34:07.530  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:39:07.533  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:44:07.535  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:49:07.537  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:54:07.539  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 13:59:07.552  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:04:07.553  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:09:07.554  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:14:07.558  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:19:07.567  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:24:07.581  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:29:07.584  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:34:07.588  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:39:07.589  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:44:07.604  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:49:07.607  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:54:07.617  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 14:59:07.632  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:04:07.634  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:09:07.649  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:14:07.652  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:19:07.666  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:24:07.671  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:29:07.682  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:34:07.690  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:39:07.701  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:44:07.702  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:49:07.703  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:54:07.705  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 15:59:07.706  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:04:07.707  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:09:07.718  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:14:07.728  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:19:07.741  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:24:07.742  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:29:07.750  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:34:07.758  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:39:07.767  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:44:07.777  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:49:07.787  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:54:07.792  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 16:59:07.808  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:04:07.814  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:09:07.816  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:14:07.823  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:19:07.825  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:24:07.838  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:29:07.843  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:34:07.850  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:39:07.860  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:44:07.862  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:49:07.878  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:54:07.881  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 17:59:07.886  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:04:07.893  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:09:07.902  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:14:07.909  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:19:07.924  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:24:07.932  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-01-28 18:29:07.933  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:34:56.257  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:39:56.260  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:44:56.273  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:49:56.275  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:54:56.285  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 18:59:56.287  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:04:56.295  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:09:56.303  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:14:56.312  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:19:56.320  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:24:56.322  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:29:56.335  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:34:56.337  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:39:56.352  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:44:56.355  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:49:56.369  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:54:56.384  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 19:59:56.386  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 20:04:56.400  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 20:09:56.410  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 20:14:56.417  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 20:19:56.419  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-03-28 20:24:56.432  INFO 7076 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
