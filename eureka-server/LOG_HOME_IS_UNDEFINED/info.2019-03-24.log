@@ -1,0 +1,839 @@
+2019-03-24 13:44:09.359  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:44:10.205  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:44:11.664  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:44:11.667  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:44:11.673  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-03-24 13:44:11.945  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:44:12.045  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:44:12.648  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:44:12.649  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:44:12.651  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:44:12.652  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:44:12.716  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:44:12.716  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2501 ms
+2019-03-24 13:44:15.800  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:44:15.834  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:44:15.835  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:44:15.835  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:44:15.836  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:44:16.803  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ef45ac4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4daaff54, org.springframework.security.web.header.HeaderWriterFilter@a9f40b2, org.springframework.security.web.authentication.logout.LogoutFilter@ea13d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@223f61d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@695bb073, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1206bce8, org.springframework.security.web.session.SessionManagementFilter@758c4bb, org.springframework.security.web.access.ExceptionTranslationFilter@6b7cbf3b]
+2019-03-24 13:44:16.849  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:44:17.361  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:44:19.244  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:44:21.093  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:44:21.109  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:44:21.114  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:44:21.114  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406261114 with initial instances count: 0
+2019-03-24 13:44:21.171  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:44:21.172  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:44:21.199  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:44:21.200  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:44:21.200  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:44:21.200  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:44:21.578  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:44:21.582  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:44:21.616  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:44:22.184  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:44:22.247  INFO 568 --- [Thread-43] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:44:22.260  INFO 568 --- [Thread-43] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:44:22.261  INFO 568 --- [Thread-43] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:44:22.262  INFO 568 --- [Thread-43] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:44:22.262  INFO 568 --- [Thread-43] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:44:22.265  INFO 568 --- [Thread-43] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:44:22.265  INFO 568 --- [Thread-43] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:44:22.265  INFO 568 --- [Thread-43] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:44:22.276  INFO 568 --- [Thread-43] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:44:22.897  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:44:22.901  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:44:22.953  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:44:22.965  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:44:23.030  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:44:23.032  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 14.583 seconds (JVM running for 209331.263)
+2019-03-24 13:44:23.044  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:44:28.479  INFO 568 --- [http-nio-8761-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:44:28.479  INFO 568 --- [http-nio-8761-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:44:28.499  INFO 568 --- [http-nio-8761-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-03-24 13:44:28.650  INFO 568 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:44:29.166  INFO 568 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:45:22.267  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:45:46.660  INFO 568 --- [Thread-24] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:45:46.668  INFO 568 --- [Thread-24] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:45:46.676  INFO 568 --- [Thread-24] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:45:46.681  INFO 568 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:45:47.067  INFO 568 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status DOWN (replication=false)
+2019-03-24 13:45:47.803  INFO 568 --- [Thread-24] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:45:47.803  INFO 568 --- [Thread-24] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:45:50.176  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:45:50.927  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:45:52.175  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:45:52.175  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:45:52.183  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-03-24 13:45:52.384  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:45:52.431  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:45:52.924  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:45:52.924  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:45:52.925  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:45:52.925  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:45:52.968  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:45:52.968  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2037 ms
+2019-03-24 13:45:55.039  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:45:55.056  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:45:55.057  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:45:55.057  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:45:55.057  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:45:55.480  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@472ab442, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f3d36d0, org.springframework.security.web.header.HeaderWriterFilter@56724820, org.springframework.security.web.authentication.logout.LogoutFilter@65163811, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f6dab19, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e3bbaef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@634a2a7e, org.springframework.security.web.session.SessionManagementFilter@3fc61e27, org.springframework.security.web.access.ExceptionTranslationFilter@1094d55]
+2019-03-24 13:45:55.508  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:45:55.994  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:45:57.444  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:45:59.106  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:45:59.112  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:45:59.113  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:45:59.113  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406359113 with initial instances count: 0
+2019-03-24 13:45:59.143  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:45:59.144  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:45:59.147  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:45:59.150  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:45:59.150  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:45:59.150  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:45:59.326  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:45:59.363  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:45:59.366  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:45:59.695  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:45:59.700  INFO 568 --- [Thread-65] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:45:59.705  INFO 568 --- [Thread-65] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:45:59.707  INFO 568 --- [Thread-65] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:45:59.709  INFO 568 --- [Thread-65] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:45:59.709  INFO 568 --- [Thread-65] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:45:59.710  INFO 568 --- [Thread-65] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:45:59.710  INFO 568 --- [Thread-65] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:45:59.710  INFO 568 --- [Thread-65] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:45:59.725  INFO 568 --- [Thread-65] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:46:00.294  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:46:00.302  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:46:00.306  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:46:00.321  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:46:00.323  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:46:00.337  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 11.204 seconds (JVM running for 209428.567)
+2019-03-24 13:46:00.392  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:46:06.049  INFO 568 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:46:06.049  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:46:06.066  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-03-24 13:46:06.106  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:46:06.618  INFO 568 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:46:23.322  INFO 568 --- [Thread-46] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:46:23.331  INFO 568 --- [Thread-46] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:46:23.426  INFO 568 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status DOWN (replication=false)
+2019-03-24 13:46:23.432  INFO 568 --- [Thread-46] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:46:23.436  INFO 568 --- [Thread-46] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:46:24.578  INFO 568 --- [Thread-46] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:46:24.579  INFO 568 --- [Thread-46] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:46:27.255  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:46:28.379  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:46:31.374  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:46:31.374  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:46:31.384  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-03-24 13:46:31.587  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:46:31.648  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:46:32.894  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:46:32.896  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:46:32.899  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:46:32.899  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:46:32.977  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:46:32.977  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4578 ms
+2019-03-24 13:46:34.999  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:46:35.015  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:46:35.016  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:46:35.016  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:46:35.016  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:46:35.511  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ae38c1c, org.springframework.security.web.context.SecurityContextPersistenceFilter@bb77e0a, org.springframework.security.web.header.HeaderWriterFilter@76bf3008, org.springframework.security.web.authentication.logout.LogoutFilter@2792dda6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f8cd94, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1317a687, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5da54cd7, org.springframework.security.web.session.SessionManagementFilter@1789c63d, org.springframework.security.web.access.ExceptionTranslationFilter@58724f11]
+2019-03-24 13:46:35.539  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:46:35.822  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:46:36.589  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:46:37.909  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:46:37.912  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:46:37.912  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:46:37.913  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406397913 with initial instances count: 0
+2019-03-24 13:46:37.938  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:46:37.938  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:46:37.941  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:46:37.941  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:46:37.942  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:46:37.942  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:46:38.038  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:46:38.045  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:46:38.047  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:46:38.259  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:46:38.283  INFO 568 --- [Thread-87] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:46:38.286  INFO 568 --- [Thread-87] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:46:38.286  INFO 568 --- [Thread-87] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:46:38.286  INFO 568 --- [Thread-87] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:46:38.287  INFO 568 --- [Thread-87] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:46:38.287  INFO 568 --- [Thread-87] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:46:38.287  INFO 568 --- [Thread-87] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:46:38.287  INFO 568 --- [Thread-87] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:46:38.297  INFO 568 --- [Thread-87] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:46:38.821  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:46:38.825  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:46:38.828  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:46:38.838  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:46:38.841  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:46:38.842  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 13.053 seconds (JVM running for 209467.073)
+2019-03-24 13:46:38.862  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:46:41.232  INFO 568 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:46:41.233  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:46:41.247  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-03-24 13:46:41.279  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:46:41.791  INFO 568 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:47:38.287  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:48:36.500  INFO 568 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status DOWN (replication=false)
+2019-03-24 13:48:36.661  INFO 568 --- [Thread-68] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:48:36.691  INFO 568 --- [Thread-68] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:48:36.697  INFO 568 --- [Thread-68] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:48:36.708  INFO 568 --- [Thread-68] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:48:37.843  INFO 568 --- [Thread-68] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:48:37.843  INFO 568 --- [Thread-68] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:48:39.867  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:48:40.647  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:48:41.783  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:48:41.784  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:48:41.793  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-03-24 13:48:41.993  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:48:42.058  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:48:42.494  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:48:42.495  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:48:42.495  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:48:42.496  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:48:42.551  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:48:42.551  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1898 ms
+2019-03-24 13:48:45.175  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:48:45.192  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:48:45.193  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:48:45.194  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:48:45.196  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:48:45.637  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@abaa126, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ac5c6ea, org.springframework.security.web.header.HeaderWriterFilter@1b404966, org.springframework.security.web.authentication.logout.LogoutFilter@3524107b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@483df988, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14aa24c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4357fead, org.springframework.security.web.session.SessionManagementFilter@504ad504, org.springframework.security.web.access.ExceptionTranslationFilter@fce7db1]
+2019-03-24 13:48:45.663  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:48:45.924  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:48:46.681  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:48:47.747  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:48:47.750  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:48:47.750  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:48:47.750  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406527750 with initial instances count: 0
+2019-03-24 13:48:47.781  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:48:47.781  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:48:47.784  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:48:47.784  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:48:47.785  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:48:47.785  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:48:47.872  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:48:47.874  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:48:47.874  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:48:48.166  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:48:48.169  INFO 568 --- [Thread-109] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:48:48.172  INFO 568 --- [Thread-109] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:48:48.173  INFO 568 --- [Thread-109] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:48:48.173  INFO 568 --- [Thread-109] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:48:48.173  INFO 568 --- [Thread-109] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:48:48.173  INFO 568 --- [Thread-109] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:48:48.173  INFO 568 --- [Thread-109] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:48:48.174  INFO 568 --- [Thread-109] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:48:48.179  INFO 568 --- [Thread-109] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:48:48.703  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:48:48.705  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:48:48.707  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:48:48.739  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:48:48.740  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:48:48.741  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 9.87 seconds (JVM running for 209596.972)
+2019-03-24 13:48:48.761  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:48:53.102  INFO 568 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:48:53.103  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:48:53.120  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-03-24 13:48:53.164  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:48:53.681  INFO 568 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:49:48.174  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:50:48.175  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:51:48.175  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:52:48.175  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:52:59.461  INFO 568 --- [Thread-90] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:52:59.469  INFO 568 --- [Thread-90] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:52:59.472  INFO 568 --- [Thread-90] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:52:59.479  INFO 568 --- [Thread-90] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:53:00.096  INFO 568 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status DOWN (replication=false)
+2019-03-24 13:53:00.626  INFO 568 --- [Thread-90] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:53:00.627  INFO 568 --- [Thread-90] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:53:02.756  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:53:03.520  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:53:04.632  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:53:04.633  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:53:04.637  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-03-24 13:53:04.795  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:53:04.839  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:53:05.233  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:53:05.233  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:53:05.234  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:53:05.234  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:53:05.283  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:53:05.283  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1760 ms
+2019-03-24 13:53:07.186  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:53:07.198  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:53:07.198  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:53:07.198  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:53:07.199  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:53:07.581  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e61a4b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@38bd865, org.springframework.security.web.header.HeaderWriterFilter@4b01da25, org.springframework.security.web.authentication.logout.LogoutFilter@6a7183bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24f0eb2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@456b2908, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4431939b, org.springframework.security.web.session.SessionManagementFilter@43741af4, org.springframework.security.web.access.ExceptionTranslationFilter@799a895e]
+2019-03-24 13:53:07.602  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:53:07.812  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:53:08.337  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:53:09.454  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:53:09.457  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:53:09.457  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:53:09.458  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406789458 with initial instances count: 0
+2019-03-24 13:53:09.501  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:53:09.501  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:53:09.504  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:53:09.504  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:53:09.504  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:53:09.504  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:53:09.571  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:53:09.575  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:53:09.575  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:53:09.773  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:53:09.776  INFO 568 --- [Thread-131] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:53:09.778  INFO 568 --- [Thread-131] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:53:09.779  INFO 568 --- [Thread-131] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:53:09.786  INFO 568 --- [Thread-131] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:53:10.306  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:53:10.308  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:53:10.311  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:53:10.318  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:53:10.319  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:53:10.319  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 8.704 seconds (JVM running for 209858.55)
+2019-03-24 13:53:10.325  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:53:16.032  INFO 568 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:53:16.032  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:53:16.046  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-03-24 13:53:16.102  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:53:16.615  INFO 568 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:54:09.780  INFO 568 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-24 13:54:24.480  INFO 568 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status DOWN (replication=false)
+2019-03-24 13:54:24.883  INFO 568 --- [Thread-112] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:54:24.890  INFO 568 --- [Thread-112] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:54:24.894  INFO 568 --- [Thread-112] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:54:24.896  INFO 568 --- [Thread-112] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:54:26.011  INFO 568 --- [Thread-112] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:54:26.011  INFO 568 --- [Thread-112] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:54:28.228  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:54:29.007  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:54:30.206  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:54:30.206  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:54:30.210  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-03-24 13:54:30.336  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:54:30.383  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:54:30.755  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:54:30.756  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:54:30.757  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:54:30.757  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:54:30.807  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:54:30.807  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1797 ms
+2019-03-24 13:54:33.243  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:54:33.258  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:54:33.258  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:54:33.258  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:54:33.289  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:54:33.859  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42cbd600, org.springframework.security.web.context.SecurityContextPersistenceFilter@28019e45, org.springframework.security.web.header.HeaderWriterFilter@53bc145f, org.springframework.security.web.authentication.logout.LogoutFilter@f823bba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26c418f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@792aa371, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78a52e54, org.springframework.security.web.session.SessionManagementFilter@4147df48, org.springframework.security.web.access.ExceptionTranslationFilter@23369f52]
+2019-03-24 13:54:33.895  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:54:34.255  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:54:35.762  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:54:37.417  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:54:37.420  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:54:37.420  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:54:37.421  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406877420 with initial instances count: 0
+2019-03-24 13:54:37.486  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:54:37.486  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:54:37.500  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:54:37.501  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:54:37.501  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:54:37.501  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:54:37.740  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:54:37.833  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:54:37.833  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:54:38.565  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:54:38.635  INFO 568 --- [Thread-153] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:54:38.711  INFO 568 --- [Thread-153] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:54:38.712  INFO 568 --- [Thread-153] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:54:38.713  INFO 568 --- [Thread-153] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:54:38.713  INFO 568 --- [Thread-153] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:54:38.713  INFO 568 --- [Thread-153] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:54:38.713  INFO 568 --- [Thread-153] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:54:38.713  INFO 568 --- [Thread-153] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:54:38.719  INFO 568 --- [Thread-153] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:54:39.245  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:54:39.248  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:54:39.252  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:54:39.258  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:54:39.259  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:54:39.259  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 12.031 seconds (JVM running for 209947.49)
+2019-03-24 13:54:39.287  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:54:44.371  INFO 568 --- [Thread-134] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:54:44.379  INFO 568 --- [Thread-134] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:54:44.381  INFO 568 --- [Thread-134] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:54:44.385  INFO 568 --- [Thread-134] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:54:44.965  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:54:44.986  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:54:45.035  INFO 568 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:54:45.040  INFO 568 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:54:45.501  INFO 568 --- [Thread-134] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:54:45.501  INFO 568 --- [Thread-134] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:54:47.675  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:54:48.622  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:54:49.728  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:54:49.728  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:54:49.735  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-03-24 13:54:49.966  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:54:50.063  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:54:50.521  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:54:50.522  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:54:50.522  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:54:50.523  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:54:50.584  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:54:50.585  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1958 ms
+2019-03-24 13:54:53.516  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:54:53.542  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:54:53.543  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:54:53.543  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:54:53.543  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:54:54.247  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5e688e4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@69f608fa, org.springframework.security.web.header.HeaderWriterFilter@26b12ebb, org.springframework.security.web.authentication.logout.LogoutFilter@56af925a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59c3f5f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11a20876, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5192279, org.springframework.security.web.session.SessionManagementFilter@36bcc70b, org.springframework.security.web.access.ExceptionTranslationFilter@43105f68]
+2019-03-24 13:54:54.320  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:54:54.653  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:54:55.363  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:54:56.443  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:54:56.446  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:54:56.447  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:54:56.447  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406896447 with initial instances count: 0
+2019-03-24 13:54:56.480  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:54:56.480  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:54:56.483  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:54:56.484  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:54:56.484  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:54:56.484  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:54:56.593  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:54:56.595  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:54:56.595  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:54:58.915  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:54:58.915  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:54:58.917  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:54:58.921  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:55:00.601  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:55:00.601  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:55:00.788  INFO 568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 13:55:00.903  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:02.298  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:55:04.888  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:55:04.889  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:55:04.903  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-03-24 13:55:06.389  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:55:06.484  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:07.147  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:55:07.200  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:55:07.201  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:55:07.201  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:55:07.464  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:55:07.464  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5160 ms
+2019-03-24 13:55:11.616  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:55:11.636  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:11.637  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:11.639  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:11.641  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:12.506  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f74787c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2064d6d0, org.springframework.security.web.header.HeaderWriterFilter@7f3ca33, org.springframework.security.web.authentication.logout.LogoutFilter@5140dbe0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@740a7556, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3968bf92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b801144, org.springframework.security.web.session.SessionManagementFilter@eb9b87, org.springframework.security.web.access.ExceptionTranslationFilter@1128c7fd]
+2019-03-24 13:55:12.575  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:55:13.011  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:55:14.672  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:55:16.320  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:55:16.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:55:16.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:55:16.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406916325 with initial instances count: 0
+2019-03-24 13:55:16.424  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:55:16.425  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:55:16.431  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:16.432  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:16.432  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:16.433  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:16.799  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:55:16.801  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:55:16.803  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:55:17.230  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:55:17.342  INFO 568 --- [Thread-195] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:55:17.380  INFO 568 --- [Thread-195] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:55:17.380  INFO 568 --- [Thread-195] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:55:17.381  INFO 568 --- [Thread-195] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:55:17.390  INFO 568 --- [Thread-195] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:55:17.390  INFO 568 --- [Thread-195] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:55:17.390  INFO 568 --- [Thread-195] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:55:17.390  INFO 568 --- [Thread-195] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:55:17.511  INFO 568 --- [Thread-195] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:55:17.996  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:55:18.000  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:55:18.002  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:55:18.009  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:55:18.009  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:55:18.010  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 19.267 seconds (JVM running for 209986.241)
+2019-03-24 13:55:18.271  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:55:19.473  INFO 568 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:55:19.473  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:55:19.495  INFO 568 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-03-24 13:55:19.573  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:55:20.181  INFO 568 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:55:31.325  INFO 568 --- [Thread-175] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:55:31.360  INFO 568 --- [Thread-175] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:55:32.841  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:37.018  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:55:37.158  INFO 568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 13:55:37.291  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:39.151  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:55:39.240  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:55:39.317  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:39.974  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:55:39.979  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:55:39.979  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:55:39.980  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:55:40.049  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:55:40.049  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3025 ms
+2019-03-24 13:55:40.686  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:55:40.686  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:55:40.692  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-03-24 13:55:41.178  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:55:41.331  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:55:42.012  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:55:42.015  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:55:42.016  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:55:42.016  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:55:42.243  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:55:42.243  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3087 ms
+2019-03-24 13:55:43.912  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:55:43.946  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:43.946  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:43.947  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:43.949  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:44.647  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b9005f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ab64968, org.springframework.security.web.header.HeaderWriterFilter@73645fb0, org.springframework.security.web.authentication.logout.LogoutFilter@abae3ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68c3179d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@344d4c41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64b2c6e4, org.springframework.security.web.session.SessionManagementFilter@4be976fa, org.springframework.security.web.access.ExceptionTranslationFilter@6f05614c]
+2019-03-24 13:55:44.689  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:55:45.400  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:55:45.903  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:55:45.923  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:45.924  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:45.924  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:45.925  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:46.819  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cbffa66, org.springframework.security.web.context.SecurityContextPersistenceFilter@5530f62, org.springframework.security.web.header.HeaderWriterFilter@2fd24bf, org.springframework.security.web.authentication.logout.LogoutFilter@11a8d77d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6aa60e8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@413d6569, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d771b50, org.springframework.security.web.session.SessionManagementFilter@561b6910, org.springframework.security.web.access.ExceptionTranslationFilter@10825e70]
+2019-03-24 13:55:47.244  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:55:47.728  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:55:50.271  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:55:51.562  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:55:51.568  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:55:51.568  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:55:51.568  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406951568 with initial instances count: 0
+2019-03-24 13:55:51.623  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:55:51.623  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:55:51.627  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:51.628  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:51.628  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:51.628  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:52.279  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:55:52.282  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:55:52.283  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:55:52.948  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:55:52.951  INFO 568 --- [Thread-225] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:55:52.954  INFO 568 --- [Thread-225] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:55:52.956  INFO 568 --- [Thread-225] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:55:52.964  INFO 568 --- [Thread-225] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:55:53.323  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:55:53.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:55:53.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:55:53.325  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553406953325 with initial instances count: 0
+2019-03-24 13:55:53.354  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:55:53.354  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:55:53.357  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:55:53.357  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:55:53.357  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:55:53.357  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:55:53.477  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:55:53.481  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:55:53.481  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:55:53.498  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:55:53.500  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:55:53.503  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:55:53.510  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:55:53.511  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:55:53.513  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 22.171 seconds (JVM running for 210021.744)
+2019-03-24 13:55:53.521  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:55:53.554  INFO 568 --- [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 13:55:53.554  INFO 568 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 13:55:53.584  INFO 568 --- [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+2019-03-24 13:55:53.598  INFO 568 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=false)
+2019-03-24 13:55:53.742  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-24 13:55:53.765  INFO 568 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-24 13:55:53.772  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:55:53.773  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:55:53.774  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:55:53.778  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:55:54.118  INFO 568 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TESTSECURITY/192.168.0.103:testSecurity:7777 with status UP (replication=true)
+2019-03-24 13:55:54.926  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:55:54.926  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:56:44.472  INFO 568 --- [Thread-199] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:56:44.479  INFO 568 --- [Thread-199] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:56:44.481  INFO 568 --- [Thread-199] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:56:44.485  INFO 568 --- [Thread-199] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:56:45.698  INFO 568 --- [Thread-199] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:56:45.698  INFO 568 --- [Thread-199] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:56:45.700  INFO 568 --- [Thread-199] o.a.coyote.http11.Http11NioProtocol      : Pausing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:56:45.781  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:56:48.267  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:56:48.710  INFO 568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 13:56:48.772  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:56:49.922  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:56:49.994  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:56:50.675  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:56:50.678  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:56:50.679  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:56:50.680  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:56:51.648  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:56:51.651  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3379 ms
+2019-03-24 13:56:52.319  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:56:52.319  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:56:52.327  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-03-24 13:56:52.548  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:56:52.823  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:56:53.436  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:56:53.437  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:56:53.438  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:56:53.439  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:56:53.492  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:56:53.492  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3556 ms
+2019-03-24 13:56:54.421  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:56:54.444  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:56:54.445  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:56:54.446  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:56:54.446  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:56:55.009  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@236a8e81, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b643ea2, org.springframework.security.web.header.HeaderWriterFilter@15994040, org.springframework.security.web.authentication.logout.LogoutFilter@4196b1ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@393568b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@363bd16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f875e35, org.springframework.security.web.session.SessionManagementFilter@3492d894, org.springframework.security.web.access.ExceptionTranslationFilter@3f1105b9]
+2019-03-24 13:56:55.039  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:56:55.374  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:56:56.083  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:56:56.102  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:56:56.102  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:56:56.103  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:56:56.103  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:56:56.224  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:56:56.411  INFO 568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 13:56:56.610  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34113701, org.springframework.security.web.context.SecurityContextPersistenceFilter@30d0722e, org.springframework.security.web.header.HeaderWriterFilter@7c6532f3, org.springframework.security.web.authentication.logout.LogoutFilter@2eea402c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f552880, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d4f55f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f3c7f9b, org.springframework.security.web.session.SessionManagementFilter@6b7107aa, org.springframework.security.web.access.ExceptionTranslationFilter@76062106]
+2019-03-24 13:56:56.953  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:56:57.575  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:56:57.578  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:56:57.578  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:56:57.578  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553407017578 with initial instances count: 0
+2019-03-24 13:56:57.682  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:56:57.682  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:56:57.687  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:56:57.687  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:56:57.687  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:56:57.687  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:56:57.802  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:56:57.804  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:56:57.805  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:56:57.955  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:56:58.077  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:56:58.115  INFO 568 --- [Thread-263] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:56:58.117  INFO 568 --- [Thread-263] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:56:58.119  INFO 568 --- [Thread-263] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:56:58.120  INFO 568 --- [Thread-263] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:56:58.120  INFO 568 --- [Thread-263] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:56:58.120  INFO 568 --- [Thread-263] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:56:58.120  INFO 568 --- [Thread-263] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:56:58.120  INFO 568 --- [Thread-263] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:56:58.131  INFO 568 --- [Thread-263] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:56:58.164  INFO 568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 13:56:58.673  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:56:58.676  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:56:58.678  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:56:58.684  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:56:58.684  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:56:58.685  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 14.163 seconds (JVM running for 210086.916)
+2019-03-24 13:56:58.691  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:56:59.054  INFO 568 --- [Thread-255] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:56:59.063  INFO 568 --- [Thread-255] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:56:59.067  INFO 568 --- [Thread-255] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:56:59.071  INFO 568 --- [Thread-255] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:56:59.229  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:56:59.233  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:56:59.233  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:56:59.233  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553407019233 with initial instances count: 0
+2019-03-24 13:56:59.264  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:56:59.265  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:56:59.268  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:56:59.268  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:56:59.270  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:56:59.270  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:56:59.354  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:56:59.359  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:56:59.361  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:56:59.557  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:56:59.560  INFO 568 --- [Thread-274] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:56:59.562  INFO 568 --- [Thread-274] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:56:59.563  INFO 568 --- [Thread-274] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:56:59.563  INFO 568 --- [Thread-274] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:56:59.563  INFO 568 --- [Thread-274] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:56:59.563  INFO 568 --- [Thread-274] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:56:59.563  INFO 568 --- [Thread-274] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:56:59.565  INFO 568 --- [Thread-274] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:56:59.565  INFO 568 --- [Thread-274] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:56:59.574  INFO 568 --- [Thread-274] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:57:00.097  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:57:00.133  INFO 568 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-24 13:57:00.133  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:57:00.143  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:57:00.145  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:57:00.149  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:57:01.011  INFO 568 --- [Thread-255] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:57:01.011  INFO 568 --- [Thread-255] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:57:01.286  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-24 13:57:01.286  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-24 13:57:03.221  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:57:03.981  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:57:04.941  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 13:57:04.941  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 13:57:04.947  INFO 568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-03-24 13:57:05.173  INFO 568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 13:57:05.229  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:57:05.855  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:57:05.856  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:57:05.856  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:57:05.857  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:57:05.934  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:57:05.934  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1949 ms
+2019-03-24 13:57:08.210  INFO 568 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 13:57:08.225  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:57:08.225  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:57:08.225  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:57:08.225  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:57:08.587  INFO 568 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e115cf6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d20a511, org.springframework.security.web.header.HeaderWriterFilter@47c16674, org.springframework.security.web.authentication.logout.LogoutFilter@7cac3ab, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2444f37f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70140862, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38836f7a, org.springframework.security.web.session.SessionManagementFilter@637049f6, org.springframework.security.web.access.ExceptionTranslationFilter@1aa07953]
+2019-03-24 13:57:08.619  INFO 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 13:57:08.981  INFO 568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:57:09.605  INFO 568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 13:57:09.729  INFO 568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 13:57:10.689  INFO 568 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 13:57:10.692  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 13:57:10.692  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 13:57:10.692  INFO 568 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553407030692 with initial instances count: 0
+2019-03-24 13:57:10.727  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 13:57:10.728  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 13:57:10.730  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 13:57:10.731  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 13:57:10.731  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 13:57:10.731  INFO 568 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 13:57:10.802  INFO 568 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 13:57:10.806  INFO 568 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 13:57:10.807  INFO 568 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 13:57:10.996  INFO 568 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 13:57:10.998  INFO 568 --- [Thread-294] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 13:57:11.002  INFO 568 --- [Thread-294] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 13:57:11.002  INFO 568 --- [Thread-294] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 13:57:11.002  INFO 568 --- [Thread-294] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 13:57:11.003  INFO 568 --- [Thread-294] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 13:57:11.003  INFO 568 --- [Thread-294] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 13:57:11.003  INFO 568 --- [Thread-294] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 13:57:11.003  INFO 568 --- [Thread-294] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 13:57:11.012  INFO 568 --- [Thread-294] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 13:57:11.525  INFO 568 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 13:57:11.527  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:57:11.530  INFO 568 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 13:57:11.535  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 13:57:11.535  INFO 568 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 13:57:11.536  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 9.127 seconds (JVM running for 210099.767)
+2019-03-24 13:57:11.541  INFO 568 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-24 13:57:55.221  INFO 568 --- [Thread-267] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-24 13:57:55.236  INFO 568 --- [Thread-267] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-24 13:57:55.237  INFO 568 --- [Thread-267] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-24 13:57:55.243  INFO 568 --- [Thread-267] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-24 13:57:56.149  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:57:57.596  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:57:58.254  INFO 568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 13:57:58.302  INFO 568 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6a451af5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 13:57:59.119  INFO 568 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 13:57:59.284  INFO 568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 13:57:59.287  INFO 568 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 13:57:59.288  INFO 568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 13:57:59.288  INFO 568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 13:57:59.335  INFO 568 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2019-03-24 13:57:59.335  INFO 568 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1730 ms
+2019-03-24 15:16:48.426  INFO 16112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-24 15:16:48.841  INFO 16112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ecd732d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 15:16:50.063  INFO 16112 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-24 15:16:52.414  INFO 16112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-24 15:16:52.422  INFO 16112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-24 15:16:52.498  INFO 16112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-03-24 15:16:54.200  INFO 16112 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-24 15:16:54.721  INFO 16112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ecd732d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-24 15:16:56.400  INFO 16112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-24 15:16:56.423  INFO 16112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-24 15:16:56.442  INFO 16112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-24 15:16:56.444  INFO 16112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-24 15:16:56.467  INFO 16112 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\soft\Git\cmd;C:\soft\TortoiseGit\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-24 15:16:56.729  INFO 16112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-24 15:16:56.730  INFO 16112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6628 ms
+2019-03-24 15:16:57.076  INFO 16112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 15:16:57.106  INFO 16112 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@716df5e2
+2019-03-24 15:17:02.151  INFO 16112 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-24 15:17:02.364  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 15:17:02.365  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 15:17:02.731  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 15:17:02.734  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 15:17:05.912  INFO 16112 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45345862, org.springframework.security.web.context.SecurityContextPersistenceFilter@47c0296a, org.springframework.security.web.header.HeaderWriterFilter@3f179722, org.springframework.security.web.authentication.logout.LogoutFilter@73bcc74b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21fd230f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ee2cb4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4249fb6f, org.springframework.security.web.session.SessionManagementFilter@2c4d1203, org.springframework.security.web.access.ExceptionTranslationFilter@6000570f]
+2019-03-24 15:17:06.015  INFO 16112 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-24 15:17:07.547  INFO 16112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-24 15:17:10.941  INFO 16112 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-03-24 15:17:10.946  INFO 16112 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-03-24 15:17:13.971  INFO 16112 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-24 15:17:14.619  INFO 16112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-24 15:17:17.722  INFO 16112 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-24 15:17:17.935  INFO 16112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-24 15:17:17.937  INFO 16112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-24 15:17:18.000  INFO 16112 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553411837998 with initial instances count: 0
+2019-03-24 15:17:18.860  INFO 16112 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-24 15:17:18.866  INFO 16112 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-24 15:17:20.333  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-24 15:17:20.334  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-24 15:17:20.335  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-24 15:17:20.335  INFO 16112 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-24 15:17:20.854  INFO 16112 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-24 15:17:20.871  INFO 16112 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-24 15:17:20.878  INFO 16112 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-24 15:17:21.760  INFO 16112 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-24 15:17:21.787  INFO 16112 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-24 15:17:21.836  INFO 16112 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-24 15:17:21.841  INFO 16112 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-24 15:17:21.894  INFO 16112 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-24 15:17:21.897  INFO 16112 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-24 15:17:21.899  INFO 16112 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-24 15:17:21.903  INFO 16112 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-24 15:17:21.905  INFO 16112 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-24 15:17:21.966  INFO 16112 --- [Thread-23] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-24 15:17:22.338  INFO 16112 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-24 15:17:22.351  INFO 16112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-24 15:17:22.355  INFO 16112 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-24 15:17:22.397  INFO 16112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-24 15:17:22.401  INFO 16112 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-24 15:17:22.406  INFO 16112 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 35.996 seconds (JVM running for 37.16)
+2019-03-24 15:17:44.762  INFO 16112 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-24 15:17:44.763  INFO 16112 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-24 15:17:44.806  INFO 16112 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 43 ms
+2019-03-24 15:17:45.531  INFO 16112 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-24 15:17:46.410  INFO 16112 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)

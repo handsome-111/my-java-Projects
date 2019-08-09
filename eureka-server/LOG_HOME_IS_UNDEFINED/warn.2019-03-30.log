@@ -1,0 +1,12 @@
+2019-03-30 14:40:07.334  WARN 11624 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOTASK/192.168.0.103:taotask:81
+2019-03-30 14:40:07.348  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-19] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1 failed with response code 404
+2019-03-30 14:40:07.349  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-19] c.netflix.eureka.cluster.PeerEurekaNode  : TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1: missing entry.
+2019-03-30 14:46:55.399  WARN 11624 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOTASK/192.168.0.103:taotask:81
+2019-03-30 14:46:55.415  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-9] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1 failed with response code 404
+2019-03-30 14:46:55.415  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-9] c.netflix.eureka.cluster.PeerEurekaNode  : TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1: missing entry.
+2019-03-30 14:54:02.734  WARN 11624 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOTASK/192.168.0.103:taotask:81
+2019-03-30 14:54:02.734  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-14] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1 failed with response code 404
+2019-03-30 14:54:02.734  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-14] c.netflix.eureka.cluster.PeerEurekaNode  : TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1: missing entry.
+2019-03-30 14:57:18.272  WARN 11624 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOTASK/192.168.0.103:taotask:81
+2019-03-30 14:57:18.273  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-9] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1 failed with response code 404
+2019-03-30 14:57:18.273  WARN 11624 --- [TaskBatchingWorker-target_127.0.0.1-9] c.netflix.eureka.cluster.PeerEurekaNode  : TAOTASK/192.168.0.103:taotask:81:Cancel@127.0.0.1: missing entry.

@@ -1,0 +1,16 @@
+2019-08-05 12:02:02.271  WARN 20024 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-05 12:02:07.214  WARN 20024 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-05 12:02:24.401  WARN 18528 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-05 12:02:43.884  WARN 21064 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-05 12:02:51.986  WARN 21064 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-05 12:03:08.991  WARN 21064 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-05 12:03:17.648  WARN 21064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-08-05 14:16:42.457  WARN 21064 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89
+2019-08-05 14:16:42.462  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-7] c.n.eureka.cluster.ReplicationTask       : The replication of task TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1 failed with response code 404
+2019-08-05 14:16:42.462  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-7] c.netflix.eureka.cluster.PeerEurekaNode  : TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1: missing entry.
+2019-08-05 14:18:01.156  WARN 21064 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89
+2019-08-05 14:18:01.158  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-7] c.n.eureka.cluster.ReplicationTask       : The replication of task TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1 failed with response code 404
+2019-08-05 14:18:01.158  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-7] c.netflix.eureka.cluster.PeerEurekaNode  : TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1: missing entry.
+2019-08-05 14:29:52.735  WARN 21064 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89
+2019-08-05 14:29:52.736  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-5] c.n.eureka.cluster.ReplicationTask       : The replication of task TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1 failed with response code 404
+2019-08-05 14:29:52.737  WARN 21064 --- [TaskBatchingWorker-target_127.0.0.1-5] c.netflix.eureka.cluster.PeerEurekaNode  : TAO_FEIGN/V9AVS9NHI49S52E:tao_feign:89:Cancel@127.0.0.1: missing entry.

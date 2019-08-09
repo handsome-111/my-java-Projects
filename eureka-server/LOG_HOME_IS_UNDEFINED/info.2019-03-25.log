@@ -1,0 +1,540 @@
+2019-03-25 19:19:40.010  INFO 8532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-25 19:19:40.394  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:19:41.387  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-25 19:19:43.307  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-25 19:19:43.311  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-25 19:19:43.343  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-03-25 19:19:44.470  INFO 8532 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-25 19:19:45.080  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:19:47.000  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-25 19:19:47.058  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:19:47.100  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 19:19:47.102  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-25 19:19:47.132  INFO 8532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\handsome\oracle11g\product\11.2.0\dbhome_1\bin;C:\handsome\oracle10g\product\10.2.0\db_1\BIN;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_2\bin;C:\Hondsome\Oraclesoftware\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Hondsome\MySQL5.6;C:\Program Files\CodeTool\maven\apache-maven-3.5.2\bin;C:\Hondsome\Redis;C:\WINDOWS\System32\OpenSSH\;C:\Hondsome\TortoiseSVN\bin;C:\Hondsome\MySQL5.6\bin;C:\soft\Git\cmd;C:\soft\TortoiseGit\bin;C:\Ruby25-x64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;.]
+2019-03-25 19:19:47.401  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 19:19:47.402  INFO 8532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5985 ms
+2019-03-25 19:19:47.740  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:19:47.786  INFO 8532 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@27eafd0a
+2019-03-25 19:19:51.803  INFO 8532 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 19:19:51.925  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:19:51.926  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:19:52.171  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:19:52.171  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:19:53.586  INFO 8532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@778d255b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b6d3f18, org.springframework.security.web.header.HeaderWriterFilter@54b23943, org.springframework.security.web.authentication.logout.LogoutFilter@284949eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@566e40a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43178ce3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70b35827, org.springframework.security.web.session.SessionManagementFilter@294719fd, org.springframework.security.web.access.ExceptionTranslationFilter@3ed6882b]
+2019-03-25 19:19:53.632  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:19:54.174  INFO 8532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:19:55.363  INFO 8532 --- [restartedMain] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-03-25 19:19:55.366  INFO 8532 --- [restartedMain] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-03-25 19:19:56.693  INFO 8532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 19:19:56.889  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-25 19:19:57.977  INFO 8532 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 19:19:58.046  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 19:19:58.046  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-25 19:19:58.068  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553512798065 with initial instances count: 0
+2019-03-25 19:19:58.212  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-25 19:19:58.218  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-25 19:19:58.908  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:19:58.911  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:19:58.914  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:19:58.917  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:19:59.105  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-25 19:19:59.126  INFO 8532 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-25 19:19:59.133  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-25 19:19:59.573  INFO 8532 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-25 19:19:59.585  INFO 8532 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-25 19:19:59.589  INFO 8532 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 19:19:59.594  INFO 8532 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 19:19:59.679  INFO 8532 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-25 19:19:59.682  INFO 8532 --- [Thread-23] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-25 19:19:59.682  INFO 8532 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-25 19:19:59.687  INFO 8532 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-25 19:19:59.690  INFO 8532 --- [Thread-23] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-25 19:19:59.820  INFO 8532 --- [Thread-23] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-25 19:20:00.194  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-25 19:20:00.205  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:20:00.209  INFO 8532 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-25 19:20:00.243  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-25 19:20:00.244  INFO 8532 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-25 19:20:00.261  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 21.961 seconds (JVM running for 23.105)
+2019-03-25 19:20:59.714  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:21:54.539  INFO 8532 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:21:54.539  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:21:54.590  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2019-03-25 19:21:55.283  INFO 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:21:56.068  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:21:59.714  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:22:59.714  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:23:59.715  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:24:59.715  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:25:59.716  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:26:59.716  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:27:59.716  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:28:18.924  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 19:28:19.437  INFO 8532 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-25 19:28:23.462  INFO 8532 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-25 19:28:23.981  INFO 8532 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-25 19:28:38.105  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:28:38.617  INFO 8532 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:28:45.672  INFO 8532 --- [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-25 19:28:45.707  INFO 8532 --- [Thread-15] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-25 19:28:45.718  INFO 8532 --- [Thread-15] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-25 19:28:45.785  INFO 8532 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:28:46.968  INFO 8532 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 19:28:46.976  INFO 8532 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-25 19:28:50.824  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:28:52.250  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-25 19:28:56.284  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-25 19:28:56.285  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-25 19:28:56.295  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-03-25 19:28:56.563  INFO 8532 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-25 19:28:56.702  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:28:57.346  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-25 19:28:57.348  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:28:57.350  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 19:28:57.351  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-25 19:28:57.424  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 19:28:57.424  INFO 8532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5170 ms
+2019-03-25 19:29:02.919  INFO 8532 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 19:29:03.037  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:29:03.084  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:29:03.088  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:29:03.092  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:29:05.246  INFO 8532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a78b370, org.springframework.security.web.context.SecurityContextPersistenceFilter@6eb2d732, org.springframework.security.web.header.HeaderWriterFilter@3c498e26, org.springframework.security.web.authentication.logout.LogoutFilter@3f145ba0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@677dce1b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30df627d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19f0f1e1, org.springframework.security.web.session.SessionManagementFilter@1f1630e3, org.springframework.security.web.access.ExceptionTranslationFilter@5d4411e3]
+2019-03-25 19:29:05.328  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:29:06.597  INFO 8532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:29:08.753  INFO 8532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 19:29:09.136  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-25 19:29:11.096  INFO 8532 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 19:29:11.101  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 19:29:11.101  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-25 19:29:11.101  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553513351101 with initial instances count: 0
+2019-03-25 19:29:11.159  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-25 19:29:11.160  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-25 19:29:11.166  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:29:11.166  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:29:11.166  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:29:11.166  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:29:11.393  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-25 19:29:11.400  INFO 8532 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-25 19:29:11.405  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-25 19:29:11.860  INFO 8532 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-25 19:29:11.879  INFO 8532 --- [Thread-45] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-25 19:29:11.912  INFO 8532 --- [Thread-45] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 19:29:11.914  INFO 8532 --- [Thread-45] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 19:29:11.916  INFO 8532 --- [Thread-45] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-25 19:29:11.917  INFO 8532 --- [Thread-45] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-25 19:29:11.917  INFO 8532 --- [Thread-45] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-25 19:29:11.917  INFO 8532 --- [Thread-45] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-25 19:29:11.917  INFO 8532 --- [Thread-45] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-25 19:29:11.928  INFO 8532 --- [Thread-45] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-25 19:29:12.450  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-25 19:29:12.452  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:29:12.458  INFO 8532 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-25 19:29:12.465  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-25 19:29:12.469  INFO 8532 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-25 19:29:12.470  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 23.787 seconds (JVM running for 575.315)
+2019-03-25 19:29:12.479  INFO 8532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-25 19:29:17.895  INFO 8532 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:29:17.895  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:29:17.916  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-03-25 19:29:18.040  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:29:18.560  INFO 8532 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:29:26.359  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 19:29:26.428  INFO 8532 --- [Thread-26] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-25 19:29:26.437  INFO 8532 --- [Thread-26] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-25 19:29:26.443  INFO 8532 --- [Thread-26] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-25 19:29:26.449  INFO 8532 --- [Thread-26] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:29:27.582  INFO 8532 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 19:29:27.583  INFO 8532 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-25 19:29:29.856  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:29:30.733  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-25 19:29:34.297  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-25 19:29:34.297  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-25 19:29:34.303  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-03-25 19:29:34.490  INFO 8532 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-25 19:29:34.607  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:29:35.356  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-25 19:29:35.357  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:29:35.358  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 19:29:35.358  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-25 19:29:35.425  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 19:29:35.426  INFO 8532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4689 ms
+2019-03-25 19:29:38.653  INFO 8532 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 19:29:38.712  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:29:38.713  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:29:38.714  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:29:38.715  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:29:39.602  INFO 8532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20c3e9f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cf9fc3, org.springframework.security.web.header.HeaderWriterFilter@4d416adc, org.springframework.security.web.authentication.logout.LogoutFilter@d2e0f90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@372c9894, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@323500e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7751456b, org.springframework.security.web.session.SessionManagementFilter@462cb411, org.springframework.security.web.access.ExceptionTranslationFilter@4e44e3f]
+2019-03-25 19:29:39.641  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:29:40.485  INFO 8532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:29:41.923  INFO 8532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 19:29:42.062  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-25 19:29:43.401  INFO 8532 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 19:29:43.404  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 19:29:43.405  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-25 19:29:43.405  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553513383405 with initial instances count: 0
+2019-03-25 19:29:43.448  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-25 19:29:43.449  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-25 19:29:43.456  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:29:43.459  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:29:43.460  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:29:43.461  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:29:43.792  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-25 19:29:43.795  INFO 8532 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-25 19:29:43.799  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-25 19:29:44.375  INFO 8532 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-25 19:29:44.380  INFO 8532 --- [Thread-67] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-25 19:29:44.385  INFO 8532 --- [Thread-67] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 19:29:44.388  INFO 8532 --- [Thread-67] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 19:29:44.388  INFO 8532 --- [Thread-67] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-25 19:29:44.388  INFO 8532 --- [Thread-67] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-25 19:29:44.388  INFO 8532 --- [Thread-67] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-25 19:29:44.388  INFO 8532 --- [Thread-67] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-25 19:29:44.389  INFO 8532 --- [Thread-67] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-25 19:29:44.403  INFO 8532 --- [Thread-67] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-25 19:29:44.959  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-25 19:29:44.967  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:29:44.975  INFO 8532 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-25 19:29:45.144  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-25 19:29:45.145  INFO 8532 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-25 19:29:45.146  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 16.348 seconds (JVM running for 607.991)
+2019-03-25 19:29:45.172  INFO 8532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-25 19:29:51.380  INFO 8532 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:29:51.380  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:29:51.398  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-03-25 19:29:51.473  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:29:51.983  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:30:09.078  INFO 8532 --- [Thread-48] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-25 19:30:09.096  INFO 8532 --- [Thread-48] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-25 19:30:09.099  INFO 8532 --- [Thread-48] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-25 19:30:09.105  INFO 8532 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:30:09.185  INFO 8532 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 19:30:10.300  INFO 8532 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 19:30:10.301  INFO 8532 --- [Thread-48] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-25 19:30:13.076  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:30:14.154  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-25 19:30:17.407  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-25 19:30:17.407  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-25 19:30:17.416  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-03-25 19:30:17.722  INFO 8532 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-25 19:30:18.078  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:30:19.358  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-25 19:30:19.360  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:30:19.362  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 19:30:19.363  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-25 19:30:19.616  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 19:30:19.616  INFO 8532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5457 ms
+2019-03-25 19:30:22.204  INFO 8532 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 19:30:22.224  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:30:22.225  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:30:22.225  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:30:22.225  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:30:22.723  INFO 8532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b344e8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d3770c4, org.springframework.security.web.header.HeaderWriterFilter@7a0349e9, org.springframework.security.web.authentication.logout.LogoutFilter@24e8b007, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5649065a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77a89633, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73b2e943, org.springframework.security.web.session.SessionManagementFilter@ec5635a, org.springframework.security.web.access.ExceptionTranslationFilter@4ca86b29]
+2019-03-25 19:30:22.750  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:30:23.057  INFO 8532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:30:24.688  INFO 8532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 19:30:24.844  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-25 19:30:25.842  INFO 8532 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 19:30:25.845  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 19:30:25.846  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-25 19:30:25.846  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553513425846 with initial instances count: 0
+2019-03-25 19:30:25.872  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-25 19:30:25.873  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-25 19:30:25.876  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:30:25.876  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:30:25.877  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:30:25.877  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:30:25.937  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-25 19:30:25.939  INFO 8532 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-25 19:30:25.941  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-25 19:30:26.171  INFO 8532 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-25 19:30:26.174  INFO 8532 --- [Thread-89] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-25 19:30:26.178  INFO 8532 --- [Thread-89] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 19:30:26.178  INFO 8532 --- [Thread-89] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 19:30:26.179  INFO 8532 --- [Thread-89] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-25 19:30:26.179  INFO 8532 --- [Thread-89] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-25 19:30:26.179  INFO 8532 --- [Thread-89] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-25 19:30:26.179  INFO 8532 --- [Thread-89] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-25 19:30:26.179  INFO 8532 --- [Thread-89] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-25 19:30:26.185  INFO 8532 --- [Thread-89] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-25 19:30:26.709  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-25 19:30:26.711  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:30:26.714  INFO 8532 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-25 19:30:26.720  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-25 19:30:26.720  INFO 8532 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-25 19:30:26.721  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 14.732 seconds (JVM running for 649.567)
+2019-03-25 19:30:26.729  INFO 8532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-25 19:30:31.386  INFO 8532 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:30:31.386  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:30:31.402  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-03-25 19:30:31.435  INFO 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:30:31.941  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:31:26.181  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:32:16.769  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 19:32:16.883  INFO 8532 --- [Thread-70] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKA-SERVER with eureka with status DOWN
+2019-03-25 19:32:16.897  INFO 8532 --- [Thread-70] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2019-03-25 19:32:16.903  INFO 8532 --- [Thread-70] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2019-03-25 19:32:16.913  INFO 8532 --- [Thread-70] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:32:18.033  INFO 8532 --- [Thread-70] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2019-03-25 19:32:18.034  INFO 8532 --- [Thread-70] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2019-03-25 19:32:19.861  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:32:20.664  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : The following profiles are active: eureka-server1
+2019-03-25 19:32:22.577  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-25 19:32:22.578  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-25 19:32:22.589  INFO 8532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-03-25 19:32:22.828  INFO 8532 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=540724b2-436f-3e50-b605-ebd49f82ca51
+2019-03-25 19:32:22.914  INFO 8532 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b20a1979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-25 19:32:23.548  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2019-03-25 19:32:23.551  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:32:23.552  INFO 8532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-25 19:32:23.552  INFO 8532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-03-25 19:32:23.642  INFO 8532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-25 19:32:23.643  INFO 8532 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2975 ms
+2019-03-25 19:32:26.396  INFO 8532 --- [restartedMain] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-03-25 19:32:26.417  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:32:26.418  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:32:26.418  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:32:26.418  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:32:26.881  INFO 8532 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cddab9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@31cadde8, org.springframework.security.web.header.HeaderWriterFilter@3136a1ca, org.springframework.security.web.authentication.logout.LogoutFilter@7f0b5d16, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e357682, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5458c2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@142960b9, org.springframework.security.web.session.SessionManagementFilter@c98086e, org.springframework.security.web.access.ExceptionTranslationFilter@68ea3019]
+2019-03-25 19:32:26.903  INFO 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-03-25 19:32:27.180  INFO 8532 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-25 19:32:27.867  INFO 8532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-03-25 19:32:27.981  INFO 8532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-03-25 19:32:28.965  INFO 8532 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-03-25 19:32:28.968  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-03-25 19:32:28.968  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-03-25 19:32:28.968  INFO 8532 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1553513548968 with initial instances count: 0
+2019-03-25 19:32:28.996  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-03-25 19:32:28.997  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://root:235610@127.0.0.1:8761/eureka/]
+2019-03-25 19:32:29.000  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-03-25 19:32:29.000  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-03-25 19:32:29.000  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-03-25 19:32:29.000  INFO 8532 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-03-25 19:32:29.121  INFO 8532 --- [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://root:235610@127.0.0.1:8761/eureka/
+2019-03-25 19:32:29.122  INFO 8532 --- [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-03-25 19:32:29.123  INFO 8532 --- [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-03-25 19:32:29.323  INFO 8532 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKA-SERVER with eureka with status UP
+2019-03-25 19:32:29.327  INFO 8532 --- [Thread-111] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-03-25 19:32:29.337  INFO 8532 --- [Thread-111] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-03-25 19:32:29.337  INFO 8532 --- [Thread-111] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-03-25 19:32:29.338  INFO 8532 --- [Thread-111] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-03-25 19:32:29.338  INFO 8532 --- [Thread-111] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-03-25 19:32:29.339  INFO 8532 --- [Thread-111] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-03-25 19:32:29.339  INFO 8532 --- [Thread-111] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-03-25 19:32:29.339  INFO 8532 --- [Thread-111] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-03-25 19:32:29.347  INFO 8532 --- [Thread-111] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-03-25 19:32:29.865  INFO 8532 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-25 19:32:29.867  INFO 8532 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8761"]
+2019-03-25 19:32:29.869  INFO 8532 --- [restartedMain] o.a.tomcat.util.net.NioSelectorPool      : Using a shared selector for servlet write/read
+2019-03-25 19:32:29.875  INFO 8532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2019-03-25 19:32:29.875  INFO 8532 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2019-03-25 19:32:29.876  INFO 8532 --- [restartedMain] c.y.e.EurekaServerApplication            : Started EurekaServerApplication in 10.843 seconds (JVM running for 772.721)
+2019-03-25 19:32:29.880  INFO 8532 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-03-25 19:32:35.120  INFO 8532 --- [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-25 19:32:35.120  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-25 19:32:35.138  INFO 8532 --- [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-03-25 19:32:35.189  INFO 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 19:32:35.706  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 19:33:29.347  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:34:29.348  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:35:29.348  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:36:29.348  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:37:29.349  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:38:29.349  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:39:29.361  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-03-25 19:40:29.361  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:41:29.361  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:42:29.362  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:43:29.362  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:44:29.363  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:45:29.363  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:46:29.363  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:47:29.123  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 19:47:29.364  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:48:29.364  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:49:29.364  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:50:29.365  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:51:29.365  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:52:29.366  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:53:29.366  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:54:29.366  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:55:29.367  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:56:29.367  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:57:29.368  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:58:29.368  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 19:59:29.368  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:00:29.369  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:01:29.369  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:02:29.124  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 20:02:29.370  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:03:29.370  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:04:29.370  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:05:29.371  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:06:29.371  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:07:29.372  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:08:29.372  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:09:29.372  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:10:29.373  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:11:29.373  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:12:29.374  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:13:29.374  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:14:29.374  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:15:29.375  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:16:29.375  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:17:29.125  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 20:17:29.376  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:18:29.376  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:19:29.376  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:20:29.377  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:21:29.377  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:22:29.378  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:23:29.378  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:24:29.378  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:25:29.379  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:26:29.379  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:27:29.380  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:28:29.380  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:29:29.380  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:30:29.381  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:31:29.381  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:32:29.126  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 20:32:29.382  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:33:29.382  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:34:29.382  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:35:29.383  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:36:29.383  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:37:29.384  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:38:29.384  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:39:29.384  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:40:29.385  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:41:29.385  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:42:29.385  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:43:29.386  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:44:29.386  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:45:29.387  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:46:29.387  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:47:29.127  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 20:47:29.387  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:48:29.388  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:49:29.388  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:50:29.389  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:51:29.389  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:52:29.389  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:53:29.390  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:54:29.390  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:55:29.391  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:56:29.391  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:57:29.391  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:58:29.392  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 20:59:29.392  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:00:29.393  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:01:29.393  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:02:29.128  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 21:02:29.393  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:03:29.394  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:04:29.394  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:05:29.395  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:06:29.395  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:07:29.395  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:08:29.396  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:09:29.396  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:09:56.980  INFO 8532 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 21:09:57.499  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-25 21:10:01.144  INFO 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-25 21:10:01.650  INFO 8532 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-25 21:10:14.153  INFO 8532 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 21:10:14.665  INFO 8532 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 21:10:27.517  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 21:10:28.025  INFO 8532 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-25 21:10:29.397  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:10:31.655  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-25 21:10:32.161  INFO 8532 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-25 21:10:41.562  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 21:10:42.066  INFO 8532 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 21:11:29.397  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:12:06.548  INFO 8532 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 21:12:07.059  INFO 8532 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-25 21:12:10.767  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-25 21:12:11.277  INFO 8532 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-25 21:12:22.883  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 21:12:23.393  INFO 8532 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 21:12:29.398  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:13:24.586  INFO 8532 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-25 21:13:25.098  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-25 21:13:28.936  INFO 8532 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-25 21:13:29.425  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 27ms
+2019-03-25 21:13:29.456  INFO 8532 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-25 21:13:42.848  INFO 8532 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-25 21:13:43.353  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-25 21:14:29.426  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:15:29.426  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:16:29.426  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:17:29.129  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 21:17:29.427  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:18:29.427  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:19:29.428  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:20:29.428  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:21:29.428  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:22:29.429  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:23:29.429  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:24:29.430  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:25:29.430  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:26:29.430  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:27:29.431  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:28:29.431  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:29:29.432  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:30:29.432  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:31:29.488  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 56ms
+2019-03-25 21:32:29.130  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 21:32:29.489  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:33:29.489  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:34:29.489  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:35:29.490  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:36:29.490  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:37:29.491  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:38:29.491  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:39:29.491  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:40:29.492  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:41:29.492  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:42:29.493  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:43:29.493  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:44:29.493  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:45:29.494  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:46:29.494  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:47:29.131  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 21:47:29.495  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:48:29.495  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:49:29.495  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:50:29.496  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:51:29.496  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:52:29.497  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:53:29.497  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:54:29.497  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:55:29.498  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:56:29.498  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:57:29.499  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:58:29.499  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 21:59:29.499  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:00:29.500  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:01:29.500  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:02:29.132  INFO 8532 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 3
+2019-03-25 22:02:29.501  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:03:29.501  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:04:29.501  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:05:29.502  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:06:29.502  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:07:29.503  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:08:29.503  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:09:29.503  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:10:29.504  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-25 22:11:29.504  INFO 8532 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-03-26 15:10:57.330  INFO 8532 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-26 15:10:57.842  INFO 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-26 15:11:01.750  INFO 8532 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-26 15:11:02.263  INFO 8532 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80
+2019-03-26 15:11:20.585  INFO 8532 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=false)
+2019-03-26 15:11:21.099  INFO 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status UP (replication=true)
+2019-03-26 15:11:38.533  INFO 8532 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=false)
+2019-03-26 15:11:39.038  INFO 8532 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance TAOSHELF/192.168.0.103:taoshelf:80 with status DOWN (replication=true)
+2019-03-26 15:11:42.699  INFO 8532 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance TAOSHELF/192.168.0.103:taoshelf:80 (replication=false)
+2019-03-26 15:11:43.214  INFO 8532 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): TAOSHELF - 192.168.0.103:taoshelf:80

@@ -1,0 +1,70 @@
+2019-03-16 01:48:06.044  WARN 11976 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-16 01:48:16.100  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 01:48:36.857  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 03:18:38.238  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 03:19:01.277  WARN 11976 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 03:19:01.278  WARN 11976 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 03:31:10.868  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 03:31:46.317  WARN 11976 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 03:31:46.345  WARN 11976 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 03:31:49.925  WARN 11976 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 03:31:49.925  WARN 11976 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 03:31:53.342  WARN 11976 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 03:31:53.342  WARN 11976 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 03:57:39.795  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 03:58:22.774  WARN 11976 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 03:58:22.776  WARN 11976 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 04:12:41.521  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 15:59:34.481  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 16:00:19.376  WARN 11976 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 16:00:19.482  WARN 11976 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 16:00:23.139  WARN 11976 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 16:00:23.140  WARN 11976 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 16:00:24.705  WARN 11976 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 16:00:24.706  WARN 11976 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 21:20:11.279  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 21:20:36.716  WARN 11976 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 21:20:38.539  WARN 11976 --- [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 21:33:18.040  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 21:33:57.566  WARN 11976 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 21:33:57.567  WARN 11976 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 21:37:09.874  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 21:37:42.725  WARN 11976 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 21:37:42.726  WARN 11976 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 21:45:45.660  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 21:46:14.573  WARN 11976 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 21:46:14.591  WARN 11976 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 23:21:15.070  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 23:22:15.370  WARN 11976 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:22:15.561  WARN 11976 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:22:16.350  WARN 11976 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 23:22:16.351  WARN 11976 --- [http-nio-8761-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 23:22:21.149  WARN 11976 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 23:22:21.149  WARN 11976 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Renew): DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 23:22:37.606  WARN 11976 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:22:37.606  WARN 11976 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:23:31.170  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 23:23:49.022  WARN 11976 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:23:49.024  WARN 11976 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:23:49.170  WARN 11976 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 23:23:49.170  WARN 11976 --- [http-nio-8761-exec-8] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO-AUTH-SERVICE - 192.168.0.103:tao-auth-service:2104
+2019-03-16 23:23:50.507  WARN 11976 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 23:23:50.507  WARN 11976 --- [http-nio-8761-exec-10] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 23:23:55.257  WARN 11976 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:23:55.257  WARN 11976 --- [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:23:57.808  WARN 11976 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 23:23:57.808  WARN 11976 --- [http-nio-8761-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Renew): DISTRIBUTION - 192.168.0.103:distribution:82
+2019-03-16 23:25:55.829  WARN 11976 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: DISTRIBUTION/192.168.0.103:distribution:82
+2019-03-16 23:25:55.830  WARN 11976 --- [TaskBatchingWorker-target_127.0.0.1-2] c.n.eureka.cluster.ReplicationTask       : The replication of task DISTRIBUTION/192.168.0.103:distribution:82:Cancel@127.0.0.1 failed with response code 404
+2019-03-16 23:25:55.831  WARN 11976 --- [TaskBatchingWorker-target_127.0.0.1-2] c.netflix.eureka.cluster.PeerEurekaNode  : DISTRIBUTION/192.168.0.103:distribution:82:Cancel@127.0.0.1: missing entry.
+2019-03-16 23:26:11.542  WARN 11976 --- [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOZUUL/192.168.0.103:taozuul:2103
+2019-03-16 23:26:11.543  WARN 11976 --- [TaskBatchingWorker-target_127.0.0.1-6] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOZUUL/192.168.0.103:taozuul:2103:Cancel@127.0.0.1 failed with response code 404
+2019-03-16 23:26:11.543  WARN 11976 --- [TaskBatchingWorker-target_127.0.0.1-6] c.netflix.eureka.cluster.PeerEurekaNode  : TAOZUUL/192.168.0.103:taozuul:2103:Cancel@127.0.0.1: missing entry.
+2019-03-16 23:29:18.664  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 23:30:15.152  WARN 11976 --- [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:30:15.153  WARN 11976 --- [http-nio-8761-exec-4] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOZUUL - 192.168.0.103:taozuul:2103
+2019-03-16 23:58:01.204  WARN 11976 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-16 23:58:43.644  WARN 11976 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:58:43.818  WARN 11976 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-03-16 23:58:53.493  WARN 11976 --- [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAOTASK - 192.168.0.103:taotask:81
+2019-03-16 23:58:53.494  WARN 11976 --- [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAOTASK - 192.168.0.103:taotask:81

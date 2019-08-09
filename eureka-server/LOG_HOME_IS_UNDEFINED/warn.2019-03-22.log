@@ -1,0 +1,6 @@
+2019-03-22 03:35:53.864  WARN 568 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-22 03:35:57.917  WARN 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-22 03:36:04.965  WARN 568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-22 03:36:10.363  WARN 568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-03-22 03:36:36.532  WARN 568 --- [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TESTSECURITY - 192.168.0.103:testSecurity:7777
+2019-03-22 03:36:36.538  WARN 568 --- [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TESTSECURITY - 192.168.0.103:testSecurity:7777

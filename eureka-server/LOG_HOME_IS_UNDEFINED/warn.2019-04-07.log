@@ -1,0 +1,6 @@
+2019-04-07 22:26:33.053  WARN 11624 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-07 22:26:48.725  WARN 11624 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-04-07 22:26:48.729  WARN 11624 --- [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-04-07 23:03:58.306  WARN 11624 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-07 23:04:21.271  WARN 11624 --- [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: TAO_FEIGN - 192.168.0.103:tao_feign:89
+2019-04-07 23:04:21.272  WARN 11624 --- [http-nio-8761-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): TAO_FEIGN - 192.168.0.103:tao_feign:89

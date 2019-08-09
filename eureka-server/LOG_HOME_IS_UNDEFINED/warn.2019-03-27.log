@@ -1,0 +1,5 @@
+2019-03-27 00:02:05.178  WARN 12324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-27 00:02:24.311  WARN 12324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-27 00:13:10.338  WARN 12324 --- [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-27 00:13:10.338  WARN 12324 --- [TaskBatchingWorker-target_127.0.0.1-15] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-27 00:13:10.338  WARN 12324 --- [TaskBatchingWorker-target_127.0.0.1-15] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.

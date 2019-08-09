@@ -1,0 +1,22 @@
+2019-03-25 19:19:43.582  WARN 8532 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-03-25 19:19:47.736  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 19:19:53.631  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 19:28:23.980  WARN 8532 --- [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-25 19:28:23.984  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-25 19:28:23.985  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.
+2019-03-25 19:29:05.326  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 19:29:39.641  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 19:30:22.749  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 19:32:26.903  WARN 8532 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-03-25 21:10:01.649  WARN 8532 --- [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-25 21:10:01.650  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-9] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-25 21:10:01.651  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-9] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.
+2019-03-25 21:10:32.161  WARN 8532 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-25 21:10:32.163  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-7] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-25 21:10:32.163  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-7] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.
+2019-03-25 21:12:11.277  WARN 8532 --- [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-25 21:12:11.278  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-25 21:12:11.279  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.
+2019-03-25 21:13:29.455  WARN 8532 --- [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: TAOSHELF/192.168.0.103:taoshelf:80
+2019-03-25 21:13:29.457  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.n.eureka.cluster.ReplicationTask       : The replication of task TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1 failed with response code 404
+2019-03-25 21:13:29.460  WARN 8532 --- [TaskBatchingWorker-target_127.0.0.1-19] c.netflix.eureka.cluster.PeerEurekaNode  : TAOSHELF/192.168.0.103:taoshelf:80:Cancel@127.0.0.1: missing entry.
