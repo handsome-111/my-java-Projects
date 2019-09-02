@@ -10,6 +10,8 @@ import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.security.oauth2.client.token.grant.client.ClientCredentialsResourceDetails;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 
+import feign.RequestInterceptor;
+
 /**
  * 用于访问被OAuth2保护的资源
  * @author Administrator
@@ -37,10 +39,10 @@ public class OAuth2ClientConfig {
      * 1.oauth2ClientContextFilter
      * 2.AccessTokenRequest
      */
-   /* @Bean
+    @Bean
     public RequestInterceptor oauth2FeignRequestInterceptor(){
         return new OAuth2FeignRequestInterceptor(new DefaultOAuth2ClientContext(), clientCredentialsResourceDetails());
-    }*/
+    }
 
     /**
      * 在Request域内创建AccessTokenRequest类型的bean

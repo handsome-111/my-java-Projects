@@ -21,8 +21,9 @@ public class UserController {
 	}
 	
 	@RequestMapping("/t1")
-	public String t1(){
-		return "不需要授权";
+	public User t1(@RequestParam("username") String username
+	, @RequestParam("password") String password) {
+		return userService.create(username,password);
 	}
 	
 	@RequestMapping("/t2")
