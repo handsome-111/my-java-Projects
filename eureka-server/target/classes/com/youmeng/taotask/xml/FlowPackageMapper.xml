@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youmeng.taotask.mapper.FlowPackageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.youmeng.common.base.taotask.entity.FlowPackage">
+        <id column="flowId" property="flowId" />
+        <result column="price" property="price" />
+        <result column="createTime" property="createTime"/>
+        <result column="usageTime" property="usageTime"/>
+        <result column="flowMax" property="flowMax" />
+        <result column="owner" property="owner" />
+        <result column="user" property="user" />
+    </resultMap>
+    <!-- 生成流量包 -->
+	<insert id="insertFlowPackage" parameterType="com.youmeng.common.base.taotask.entity.FlowPackage">
+		insert into flow_package (flowId,price,createTime,flowMax,owner,user,usageTime) values (#{flowId},#{price},#{createTime},#{flowMax},#{owner},#{user},#{usageTime})
+	</insert>
+	<!-- 获取流量包 -->
+	<select id="getFlowPackage" resultType="com.youmeng.common.base.taotask.entity.FlowPackage">
+		SELECT * FROM flow_package 
+		<choose>
+			<!-- Where条件过滤 -->
+			<when test="owner != null">
+				WHERE owner = #{owner}
+			</when>
+			<when test="user != null">
+				WHERE user = #{user}
+			</when>
+			<!-- 根据指定字段排序 -->
+			<when test="order != null and field != null">
+				ORDER BY ${field} ${order}
+			</when>
+			<!-- 默认 -->
+			<otherwise>
+				ORDER BY createTime DESC
+			</otherwise>
+		</choose>
+	</select>
+	<!-- 根据密钥获取流量包 -->
+	<update id="getFlowPackageByKey">
+		UPDATE SET owner=#{owner},getTime = #{getTime} FROM flow_package where flowId = #{flowId}
+	</update>
+</mapper>
+
+
+
+
+

@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-consumer/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-consumer/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-provider/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-provider/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/zipkin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/zipkin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-two/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-two/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/turbine-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/turbine-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-two/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-two/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/turbine-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/turbine-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter13/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter13/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-auth/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-auth/src/test/java"/>
+	<classpathentry excluding="com/forezp/security/" kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-hi/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-hi/src/main/java/com/forezp/security"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-hi/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/uaa-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/uaa-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/admin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/admin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/blog-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/blog-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/common/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/log-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/log-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/monitor-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/monitor-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/uaa-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/uaa-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/zipkin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/zipkin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter3/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter3/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-2/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-2/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-5/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-5/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-6/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-6/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-monitor-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-monitor-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-monitor-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-monitor-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-zuul-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-zuul-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/authserver-master/authserver-master/src/main/java/demo"/>
+	<classpathentry kind="src" path="examples/authserver-master/authserver-master/src/test/java"/>
+	<classpathentry kind="src" path="examples/mongodb-getting-started-master/src/test/java"/>
+	<classpathentry kind="src" path="examples/mybatisplus-spring-boot/src/main/java"/>
+	<classpathentry kind="src" path="examples/mybatisplus-spring-boot/src/test/java"/>
+	<classpathentry kind="src" path="examples/opslabJutil-master/src/main/java"/>
+	<classpathentry kind="src" path="examples/opslabJutil-master/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/gemfire/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/gemfire/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/batch-extract/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/batch-import/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/batch-wordcount/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/batch-wordcount/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/file-polling/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/file-polling/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/ftp/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/hbase/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/hive/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/pig/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/scheduling-quartz/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/scheduling/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/streaming/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/streaming/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/wordcount-hdfs-copy/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/wordcount-spring-basic/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/wordcount-spring-intermediate/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/hadoop/wordcount/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/jdbc/src/generated/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/jdbc/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/jdbc/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/jpa/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/jpa/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/mongodb/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/mongodb/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/neo4j/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/neo4j/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/querydsl/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/querydsl/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/redis/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/redis/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/rest/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/rest/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-book-master/roo/roo-spring-data-jpa/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/mongodriver/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/spring-boot-mongo/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/spring-boot-mongo/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-jpa/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-jpa/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-mongodb/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-mongodb/src/misc/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-mongodb/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-neo4j/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-neo4j/src/test/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-redis/src/main/java"/>
+	<classpathentry kind="src" path="examples/spring-data-examples-master/springdata-redis/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-2/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-2/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-2/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-2/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10-4/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10/config-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10/config-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter10/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-3/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-5/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-1/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-6-2/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/zipkin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11-7/zipkin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/service-consumer/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/service-consumer/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/service-provider/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/service-provider/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/zipkin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter11/zipkin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-client-two/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-client-two/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/turbine-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-2/turbine-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-client-two/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-client-two/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/turbine-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12-3/turbine-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/admin-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/admin-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/eureka-client-one/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/eureka-client-one/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter12/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter13/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter13/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/service-auth/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/service-auth/src/test/java"/>
+	<classpathentry excluding="com/forezp/security/" kind="src" path="examples/springcloud-book-master/chapter14/service-hi/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/service-hi/src/main/java/com/forezp/security"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter14/service-hi/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/uaa-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/uaa-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter15/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/admin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/admin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/blog-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/blog-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/common/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/config-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/config-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/gateway-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/gateway-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/log-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/log-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/monitor-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/monitor-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/uaa-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/uaa-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/user-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/user-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/zipkin-service/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter16/zipkin-service/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter3/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter3/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-2/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-2/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-5/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-5/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-6/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter4-6/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-2/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-2/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-2/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-2/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-5/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-5/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter5-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-3/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter6-4/ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-5/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-7/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-monitor-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-monitor-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter8-8/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-feign-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-feign-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-monitor-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-monitor-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-ribbon-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-ribbon-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-server/src/test/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-zuul-client/src/main/java"/>
+	<classpathentry kind="src" path="examples/springcloud-book-master/chapter9/eureka-zuul-client/src/test/java"/>
+	<classpathentry kind="src" path="examples/sso-master/src/main/java"/>
+	<classpathentry kind="src" path="examples/sso-master/src/test/java"/>
+	<classpathentry kind="src" path="spring_security/src/main/java"/>
+	<classpathentry kind="src" path="spring-rabbitmq-receiver/src/main/java"/>
+	<classpathentry kind="src" path="spring-rabbitmq/src/main/java"/>
+	<classpathentry kind="src" path="tao_zuul/src/main/java"/>
+	<classpathentry kind="src" path="taobao-master-ea5f180bce6037defaf4ad4c2d39c37324f0c5aataobao.git/src/main/java"/>
+	<classpathentry kind="src" path="taobao-master-ea5f180bce6037defaf4ad4c2d39c37324f0c5aataobao.git/src/test/java"/>
+	<classpathentry excluding="com/youmeng/taotask1/entity/" kind="src" path="taotask/src/main/java"/>
+	<classpathentry kind="src" path="taotask/src/main/java/com/youmeng/taotask1/entity"/>
+	<classpathentry kind="lib" path="eureka-server/target/eureka_server-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-2/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10-4/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter10/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-3/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-5/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-1/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-6-2/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11-7/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-consumer/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/service-provider/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter11/zipkin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-client-two/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-2/turbine-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-client-two/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12-3/turbine-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter12/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter13/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-auth/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter14/service-hi/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/uaa-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter15/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/admin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/blog-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/common/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/log-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/monitor-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/uaa-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter16/zipkin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter3/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-5/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter4-6/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter5-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter6-4/ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-monitor-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter8-8/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-monitor-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/深入理解Spring cloud 与微服务构建源码/springcloud-book-master/chapter9/eureka-zuul-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/authserver-master/authserver-master/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/mongodb-getting-started-master/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/opslabJutil-master/bin/opslabJutil-2.0.0.jar"/>
+	<classpathentry kind="lib" path="examples/opslabJutil-master/bin/opslabJutil-2.0.1.jar"/>
+	<classpathentry kind="lib" path="examples/opslabJutil-master/bin/opslabJutil-2.0.2.jar"/>
+	<classpathentry kind="lib" path="examples/opslabJutil-master/bin/opslabJutil-2.0.3.jar"/>
+	<classpathentry kind="lib" path="examples/opslabJutil-master/src/test/resource/lib/cpdetector.jar"/>
+	<classpathentry kind="lib" path="examples/spring-data-book-master/hadoop/pig/lib/piggybank-0.9.2.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-2/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-2/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-3/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-3/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-4/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-4/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10-4/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10/config-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter10/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-3/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-3/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-3/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-3/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-5/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-5/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-5/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-5/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-1/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-1/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-1/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-1/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-1/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-2/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-2/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-6-2/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-7/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-7/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-7/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11-7/zipkin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11/service-consumer/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11/service-provider/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter11/zipkin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-2/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-2/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-2/eureka-client-two/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-2/turbine-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-3/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-3/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-3/eureka-client-two/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12-3/turbine-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12/admin-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12/eureka-client-one/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter12/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter13/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter14/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter14/service-auth/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter14/service-auth/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter14/service-hi/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter14/service-hi/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter15/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter15/uaa-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter15/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/admin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/blog-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/common/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/config-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/gateway-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/log-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/monitor-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/uaa-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/user-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter16/zipkin-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter3/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter4-2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter4-5/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter4-6/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter5-2/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter5-2/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter5-5/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter5-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-3/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-3/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-3/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-4/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-4/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-4/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter6-4/ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter7/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter7/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter7/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-5/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-5/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-5/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-5/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-7/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-7/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-7/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-7/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-8/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-8/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-8/eureka-monitor-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-8/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter8-8/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-feign-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-monitor-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-ribbon-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-server/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/springcloud-book-master/chapter9/eureka-zuul-client/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="examples/sso-master/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="tao_zuul/src/main/resources/jar/cxytiandi-conf-client-1.0.jar"/>
+	<classpathentry kind="lib" path="tao_zuul/target/classes/jar/cxytiandi-conf-client-1.0.jar"/>
+	<classpathentry kind="lib" path="taobao-master-ea5f180bce6037defaf4ad4c2d39c37324f0c5aataobao.git/lib/tao_entity.jar"/>
+	<classpathentry kind="lib" path="taobao-master-ea5f180bce6037defaf4ad4c2d39c37324f0c5aataobao.git/lib/taobao-sdk-java-auto_1537508364370-20180921-source.jar"/>
+	<classpathentry kind="lib" path="taobao-master-ea5f180bce6037defaf4ad4c2d39c37324f0c5aataobao.git/lib/taobao-sdk-java-auto_1537508364370-20180921.jar"/>
+	<classpathentry kind="lib" path="taotask/lib/taobao-sdk-java-auto_1537508364370-20180921-source.jar"/>
+	<classpathentry kind="lib" path="taotask/lib/taobao-sdk-java-auto_1537508364370-20180921.jar"/>
+	<classpathentry kind="lib" path="taotask/lib/taobao-sdk-java-auto_1545838943996-20181226.jar"/>
+	<classpathentry kind="lib" path="taotask/target/taotask-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="eureka-server/target/classes"/>
+</classpath>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youmeng.taoshelf1.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.youmeng.taoshelf.entity.User">
+        <id column="nick" property="nick" />
+        <result column="deleted" property="deleted" />
+        <result column="end_time" property="endTime" />
+        <result column="join_time" property="joinTime" />
+        <result column="session_key1" property="sessionKey1" />
+        <result column="session_key2" property="sessionKey2" />
+        <result column="end_date1" property="endDate1" />
+        <result column="end_date2" property="endDate2" />
+    </resultMap>
+	
+	<!-- 任务结果集 -->
+	<resultMap id="tasksResultMap" type="com.youmeng.taoshelf.entity.User">
+		<id column="nick" property="nick" />
+        <result column="deleted" property="deleted" />
+        <result column="end_time" property="endTime" />
+        <result column="join_time" property="joinTime" />
+        <result column="session_key1" property="sessionKey1" />
+        <result column="session_key2" property="sessionKey2" />
+        <result column="end_date1" property="endDate1" />
+        <result column="end_date2" property="endDate2" />
+        <!-- 用户下的所有任务 -->
+        <collection property="tasks" ofType="com.youmeng.taoshelf.entity.Task">
+			<id column="id" property="id" />
+	        <result column="create_time" property="createTime" />
+	        <result column="end_time" property="endTime" />
+	        <result column="num" property="num" />
+	        <result column="start_time" property="startTime" />
+	        <result column="status" property="status" />
+	        <result column="type" property="type" />
+	        <result column="user_nick" property="userNick" />
+		</collection>
+	</resultMap>
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youmeng.taotask.mapper.TasklogMapper">
+
+    <!-- 普通查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.youmeng.common.base.taotask.entity.Tasklog">
+        <id column="tasklogId" property="tasklogId" />
+        <result column="msg" property="msg" />
+        <result column="time" property="time" />
+        <result column="goodid" property="goodid" />
+        <result column="title" property="title" />
+    </resultMap>
+    <!-- 关联任务的结果集 -->
+    <resultMap id="taskResultMap" type="com.youmeng.common.base.taotask.entity.Tasklog">
+    	<id column="tasklogId" property="tasklogId" />
+        <result column="msg" property="msg" />
+        <result column="time" property="time" />
+        <result column="goodid" property="goodid" />
+        <result column="title" property="title" />
+        <!-- 多对一 -->
+        <!-- property: 指的是属性的值, javaType：指的是属性的类型-->
+        <association property="task" column="taskId" javaType="com.youmeng.common.base.taotask.entity.Task">
+			<id column="id" property="id" />
+	        <result column="create_time" property="createTime" />
+	        <result column="end_time" property="endTime" />
+	        <result column="num" property="num" />
+	        <result column="start_time" property="startTime" />
+	        <result column="status" property="status" />
+	        <result column="type" property="type" />
+		</association>
+    </resultMap>
+	<select id="geTasklogByTaskId" resultType="com.youmeng.common.base.taotask.entity.Tasklog">
+		SELECT * FROM tasklog WHERE taskId = #{taskId} 
+		<choose>
+			<!-- 根据指定字段排序 -->
+		    <when test="order != null and field != null">
+			ORDER BY ${field} ${order}
+		    </when>
+		    <!-- 默认排序 -->
+		    <otherwise>
+			ORDER BY time DESC
+		    </otherwise>
+	  </choose>
+	</select>
+	<insert id="insertTaskLog" parameterType="com.youmeng.common.base.taotask.entity.Tasklog">
+		insert into tasklog (tasklogId,msg,time,taskId,goodid,title) values (#{tasklogId},#{msg},#{time},#{task.id},#{goodid},#{title})
+	</insert>
+</mapper>

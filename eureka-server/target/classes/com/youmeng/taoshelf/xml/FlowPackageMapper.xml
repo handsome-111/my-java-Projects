@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.youmeng.taoshelf.mapper.FlowPackageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.youmeng.common.base.taotask.entity.FlowPackage">
+        <id column="flowId" property="flowId" />
+        <result column="price" property="price" />
+        <result column="createTime" property="createTime" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
+        <result column="usageTime" property="usageTime" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
+        <result column="getTime" property="getTime" javaType="java.util.Date" jdbcType="TIMESTAMP"/>
+        <result column="flowMax" property="flowMax" />
+        <result column="owner" property="owner" />
+        <result column="user" property="user" />
+    </resultMap>
+    <!-- 生成流量包 -->
+	<insert id="insertFlowPackage" parameterType="com.youmeng.common.base.taotask.entity.FlowPackage">
+		insert into flow_package (flowId,price,createTime,flowMax,owner,user,usageTime) values (#{flowId},#{price},#{createTime},#{flowMax},#{owner},#{user},#{usageTime})
+	</insert>
+	<!-- 获取流量包 -->
+	<select id="getFlowPackage" resultType="com.youmeng.common.base.taotask.entity.FlowPackage">
+		SELECT * FROM flow_package 
+		<!-- Where条件过滤 -->
+		<if test="owner != null">
+			WHERE owner = #{owner}
+		</if>
+		<if test="user != null">
+			WHERE user = #{user}
+		</if>
+		<choose>
+			<!-- 根据指定字段排序 -->
+			<when test="order != null and field != null">
+				ORDER BY ${field} ${order}
+			</when>
+			<!-- 默认 -->
+			<otherwise>
+				ORDER BY createTime DESC
+			</otherwise>
+		</choose>
+	</select>
+	<!-- 使用流量包 -->
+	<update id="useingFlowPackage" >
+		UPDATE flow_package SET usageTime = #{usageTime},user = #{user} WHERE flowId = #{flowId} AND usageTime is null
+	</update>
+	<!-- 根据密钥获取流量包 -->
+	<update id="getFlowPackageByKey">
+		UPDATE flow_package SET owner=#{owner},getTime = #{getTime} WHERE flowId = #{flowId} AND (owner IS null OR owner = "")  
+	</update>
+</mapper> 
