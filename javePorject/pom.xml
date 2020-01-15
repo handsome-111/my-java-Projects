@@ -5,6 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>javeproject</name>
   <description>javeproject</description>
+  	<parent> 
+    	<groupId>com.base</groupId>
+	 	<artifactId>simplePom</artifactId>
+	 	<version>0.0.1-SNAPSHOT</version>
+	</parent>
   <build>
     <plugins>
       <plugin>
@@ -16,4 +21,18 @@
       </plugin>
     </plugins>
   </build>
+  
+    <!-- windows下的ffmpeg依赖 -->
+  	<dependencies>
+	  	<dependency>
+		    <groupId>ws.schild</groupId>
+		    <artifactId>jave-core</artifactId>
+		    <version>2.7.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>ws.schild</groupId>
+		    <artifactId>jave-nativebin-win64</artifactId>
+		    <version>2.7.2</version>
+		</dependency>
+  </dependencies>
 </project>
