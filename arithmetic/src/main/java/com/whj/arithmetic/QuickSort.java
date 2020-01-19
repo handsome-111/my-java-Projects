@@ -11,7 +11,7 @@ public class QuickSort {
 	
 	public static int[] quickSort(int[] arr,int left,int right){
 		if( left < right ) {
-				int base = partition(arr,left,right);
+			int base = partition(arr,left,right);
 			quickSort(arr,left,base - 1);
 			quickSort(arr,base + 1 , right);
 		}
@@ -24,18 +24,18 @@ public class QuickSort {
 		
 		
 		while(left != right) {
-			//´Ó×ó±ß¿ªÊ¼ÕÒ±Èbase´óµÄÖµ£¬µ½Ê±ºòÒª·Åµ½ÓÒ±ßÈ¥
+			//ï¿½ï¿½ï¿½ï¿½ß¿ï¿½Ê¼ï¿½Ò±ï¿½baseï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Òªï¿½Åµï¿½ï¿½Ò±ï¿½È¥
 			while(arr[left] > base && left < right) {
 				left ++;
 			}
 			
-			//´ÓÓÒ±ßÕÒ±ÈbaseÐ¡µÄÖµ£¬µ½Ê±ºòÒª·Åµ½×ó±ßÈ¥
+			//ï¿½ï¿½ï¿½Ò±ï¿½ï¿½Ò±ï¿½baseÐ¡ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Òªï¿½Åµï¿½ï¿½ï¿½ï¿½È¥
 			while(arr[right] <= base && right > left) {
 				right --;
 			}
 			
 			
-			//Èç¹û¶¼ÕÒµ½ÁË£¬Ôò»¥»»Öµ£¬°Ñ´óµÄÖµ·ÅÓÒ±ß£¬°ÑÐ¡µÄÖµ·Å×ó±ß
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½Ë£ï¿½ï¿½ò»¥»ï¿½Öµï¿½ï¿½ï¿½Ñ´ï¿½ï¿½Öµï¿½ï¿½ï¿½Ò±ß£ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½
 			if(right > left ){
 				int temp = arr[right];
 				arr[right] = arr[left];
@@ -43,18 +43,18 @@ public class QuickSort {
 			}
 			System.out.println(left + "," + right);
 			System.out.println(arr[left] + "," + arr[right]);
-			//Èç¹û×ó±ßµÄÖ¸Õë×²µ½ÁËÓÒ±ßµÄÖ¸Õë£¬Ôò²»»¥»»£¬Ö±½Ó½áÊøÈ«²¿Ñ­»·¡£
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ßµï¿½Ö¸ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½Ò±ßµï¿½Ö¸ï¿½ë£¬ï¿½ò²»»ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó½ï¿½ï¿½ï¿½È«ï¿½ï¿½Ñ­ï¿½ï¿½ï¿½ï¿½
 		}
-		System.out.println("³öÀ´");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½");
 		
-		//baseºÍ rightµÄÖµ½»»»
+		//baseï¿½ï¿½ rightï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½
 		/*int temp = arr[right];				
 		arr[right] = arr[base];
 		arr[base] = temp;*/
 		arr[left] = arr[right];
 		arr[right] = base;
 		
-		//´ËÊ± left = right,Íê³ÉÁËÒ»´ÎÅÅÐò
+		//ï¿½ï¿½Ê± left = right,ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println(right);
 		return right;
 	}
