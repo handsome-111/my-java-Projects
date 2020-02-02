@@ -1,0 +1,15 @@
+server: 
+  port : 88
+
+spring:
+  application:
+    name: spring-data-solr
+  data:
+    solr:
+      host: http://127.0.0.1:8983/solr
+
+
+  
+  
+
+  
