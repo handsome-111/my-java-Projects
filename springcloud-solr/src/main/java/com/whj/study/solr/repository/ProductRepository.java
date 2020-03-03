@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.whj.study.solr.service;
+package com.whj.study.solr.repository;
 
 import java.util.Collection;
 
@@ -26,20 +26,21 @@ import org.springframework.data.solr.repository.Highlight;
 import org.springframework.data.solr.repository.Query;
 import org.springframework.data.solr.repository.SolrCrudRepository;
 
-import com.whj.study.solr.service.model.Product;
+import com.whj.study.solr.model.Product2;
+import com.whj.study.solr.service.SearchableProductDefinition;
 
-/**
+/** 
  * @author Christoph Strobl
  */
-interface ProductRepository extends SolrCrudRepository<Product, String> {
+public interface ProductRepository extends SolrCrudRepository<Product2, String> {
 
 	@Highlight(prefix = "<b>", postfix = "</b>")
 	@Query(fields = { SearchableProductDefinition.ID_FIELD_NAME, SearchableProductDefinition.NAME_FIELD_NAME,
 			SearchableProductDefinition.PRICE_FIELD_NAME, SearchableProductDefinition.FEATURES_FIELD_NAME,
 			SearchableProductDefinition.AVAILABLE_FIELD_NAME }, defaultOperator = Operator.AND)
-	HighlightPage<Product> findByNameIn(Collection<String> names, Pageable page);
+	HighlightPage<Product2> findByNameIn(Collection<String> names, Pageable page);
 
 	@Facet(fields = { SearchableProductDefinition.NAME_FIELD_NAME })
-	FacetPage<Product> findByNameStartsWith(Collection<String> nameFragments, Pageable pagebale);
+	FacetPage<Product2> findByNameStartsWith(Collection<String> nameFragments, Pageable pagebale);
 
 }

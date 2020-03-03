@@ -19,7 +19,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.solr.core.query.result.FacetPage;
 
-import com.whj.study.solr.service.model.Product;
+import com.whj.study.solr.model.Product2;
 
 /**
  * @author Christoph Strobl
@@ -28,10 +28,10 @@ public interface ProductService {
 
 	int DEFAULT_PAGE_SIZE = 3;
 
-	Page<Product> findByName(String searchTerm, Pageable pageable);
+	Page<Product2> findByName(String searchTerm, Pageable pageable);
 
-	Product findById(String id);
+	Product2 findById(String id);
 
-	FacetPage<Product> autocompleteNameFragment(String fragment, Pageable pageable);
+	FacetPage<Product2> autocompleteNameFragment(String fragment, Pageable pageable);
 
 }

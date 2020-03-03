@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>javeproject</name>
   <description>javeproject</description>
-  	<parent> 
+  	<parent>  
     	<groupId>com.base</groupId>
 	 	<artifactId>simplePom</artifactId>
 	 	<version>0.0.1-SNAPSHOT</version>

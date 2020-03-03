@@ -29,7 +29,8 @@ import org.springframework.data.solr.core.query.result.FacetPage;
 import org.springframework.data.solr.core.query.result.SolrResultPage;
 import org.springframework.stereotype.Service;
 
-import com.whj.study.solr.service.model.Product;
+import com.whj.study.solr.model.Product2;
+import com.whj.study.solr.repository.*;
 
 /**
  * @author Christoph Strobl
@@ -39,10 +40,11 @@ class ProductServiceImpl implements ProductService {
 
 	private static final Pattern IGNORED_CHARS_PATTERN = Pattern.compile("\\p{Punct}");
 
+	@Autowired
 	private ProductRepository productRepository;
 
 	@Override
-	public Page<Product> findByName(String searchTerm, Pageable pageable) {
+	public Page<Product2> findByName(String searchTerm, Pageable pageable) {
 		if (StringUtils.isBlank(searchTerm)) {
 			return productRepository.findAll(pageable);
 		}
@@ -51,14 +53,14 @@ class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public Product findById(String id) {
+	public Product2 findById(String id) {
 		return productRepository.findById(id).get();
 	}
 
 	@Override
-	public FacetPage<Product> autocompleteNameFragment(String fragment, Pageable pageable) {
+	public FacetPage<Product2> autocompleteNameFragment(String fragment, Pageable pageable) {
 		if (StringUtils.isBlank(fragment)) {
-			return new SolrResultPage<Product>(Collections.<Product> emptyList());
+			return new SolrResultPage<Product2>(Collections.<Product2> emptyList());
 		}
 		return productRepository.findByNameStartsWith(splitSearchTermAndRemoveIgnoredCharacters(fragment), pageable);
 	}

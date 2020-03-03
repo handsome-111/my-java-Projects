@@ -36,8 +36,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.whj.study.solr.model.Product2;
 import com.whj.study.solr.service.ProductService;
-import com.whj.study.solr.service.model.Product;
 
 /**
  * @author Christoph Strobl
@@ -67,7 +67,7 @@ public class SearchController {
 			return Collections.emptySet();
 		}
 
-		FacetPage<Product> result = productService.autocompleteNameFragment(query, pageable);
+		FacetPage<Product2> result = productService.autocompleteNameFragment(query, pageable);
 
 		Set<String> titles = new LinkedHashSet<String>();
 		for (Page<FacetFieldEntry> page : result.getFacetResultPages()) {

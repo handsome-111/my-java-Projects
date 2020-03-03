@@ -13,22 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.whj.study.solr.service.model;
+package com.whj.study.solr.model;
 
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.redis.connection.RedisGeoCommands.GeoLocation;
 import org.springframework.data.solr.core.mapping.Indexed;
 import org.springframework.data.solr.core.mapping.SolrDocument;
-
+ 
 import com.whj.study.solr.service.SearchableProductDefinition;
 
 /**
  * @author Christoph Strobl
  */
 @SolrDocument(collection = "product")		//标记核心名称
-public class Product implements SearchableProductDefinition {
+public class Product2 implements SearchableProductDefinition {
 
 	private @Id @Indexed String id;
 
@@ -43,8 +42,6 @@ public class Product implements SearchableProductDefinition {
 	private @Indexed(CATEGORIES_FIELD_NAME) List<String> categories;
 
 	private @Indexed Integer popularity;
-
-	private @Indexed(LOCATION_FIELD_NAME) GeoLocation location;
 
 	public String getId() {
 		return id;
@@ -100,14 +97,6 @@ public class Product implements SearchableProductDefinition {
 
 	public void setPopularity(Integer popularity) {
 		this.popularity = popularity;
-	}
-
-	public GeoLocation getLocation() {
-		return location;
-	}
-
-	public void setLocation(GeoLocation location) {
-		this.location = location;
 	}
 
 	@Override

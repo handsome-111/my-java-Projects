@@ -20,17 +20,17 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.whj.study.solr.service.ProductService;
 
 /**
  * @author Christoph Strobl
  */
-@Controller
+@RestController
 @Component
 @Scope("prototype")
 public class ProductController {
@@ -41,6 +41,10 @@ public class ProductController {
 	public String search(Model model, @PathVariable("id") String id, HttpServletRequest request) {
 		model.addAttribute("product", productService.findById(id));
 		return "product";
+	}
+	
+	public String test(){
+		return null;
 	}
 
 	@Autowired
