@@ -8,5 +8,9 @@ spring:
         git:
           uri:
             #https://github.com/cloud-native-java/config-server-configuration-repository
-            #https://1040978586@qq.com:whj13379959770github.com/handsome-111/my-java-Projects/tree/master/%E6%BA%90%E7%A0%81%E5%A4%A7%E5%85%A8/%E4%B9%A6%E7%B1%8D%E6%BA%90%E7%A0%81/%E4%BA%91%E5%8E%9F%E7%94%9Fjava%E6%BA%90%E7%A0%81/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E9%85%8D%E7%BD%AE/config-server-configuration-repository
-            https://github.com/handsome-111/my-java-Projects/tree/master/%E6%BA%90%E7%A0%81%E5%A4%A7%E5%85%A8/%E4%B9%A6%E7%B1%8D%E6%BA%90%E7%A0%81/%E4%BA%91%E5%8E%9F%E7%94%9Fjava%E6%BA%90%E7%A0%81/%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E9%85%8D%E7%BD%AE/config-server-configuration-repository
+            https://github.com/handsome-111/my-java-Projects
+          search-paths:
+            -  testFiles/config-server-configuration-repository/
+            
+            
+            
