@@ -1,0 +1,12 @@
+spring:
+#  profiles:
+#    active: usage_message
+  rabbitmq:
+    host: 111.229.111.145
+    username: root 
+    password: whj13379959770
+    port: 5672  
+
+tutorial:
+  client:
+    duration: 20000

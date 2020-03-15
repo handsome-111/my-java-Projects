@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configuration-client-2
+  cloud:
+    config:
+      uri: ${vcap.services.configuration-service.credentials.uri:http://localhost:8888}
+  rabbitmq:
+    host: 111.229.111.145
+    username: root
+    password: whj13379959770
+
+          

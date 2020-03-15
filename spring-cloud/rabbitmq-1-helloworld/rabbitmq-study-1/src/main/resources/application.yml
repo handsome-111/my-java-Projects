@@ -1,0 +1,7 @@
+spring:
+　rabbitmq:
+   host: 111.229.111.145
+   port: 15672
+   username: user
+   password: whj13379959770
+   

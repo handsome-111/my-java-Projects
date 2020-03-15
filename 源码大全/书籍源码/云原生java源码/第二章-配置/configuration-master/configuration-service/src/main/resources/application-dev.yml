@@ -1,0 +1,40 @@
+server:
+  port:
+    8888
+spring:
+  application:
+    name: configuration-service
+  rabbitmq:
+    host: 111.229.111.145
+    username: root
+    password: whj13379959770
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+            #https://github.com/cloud-native-java/config-server-configuration-repository
+            http://111.229.111.145:9090/root/config-server-configuration-repository.git
+          username: 1040978586@qq.com
+          password: whj13379959770            
+          repos:
+            configuration-client-2:   #根据项目名称（application.name）匹配uri
+              uri: http://111.229.111.145:9090/root/config-server-configuration-repository-2.git
+          timeout: 10
+          
+        bootstrap: true
+
+logging:
+  file: springBoot.log
+  pattern:
+    console: %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n   #控制台输出的格式
+    file: %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n      #指定文件输出的格式
+  #path: /spring/springboot.log   #在当前磁盘的根路径下生成文件,是磁盘根路径而不是当前路径         
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "bus-refresh"          
+            
+              

@@ -1,0 +1,32 @@
+server: 
+  port: 
+    8888
+spring:
+  application:
+    name: configuration-service
+  rabbitmq: 
+    host: 127.0.0.1
+    username: root
+    password: whj13379959770
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+            #https://github.com/cloud-native-java/config-server-configuration-repository
+            http://127.0.0.1:9090/root/config-server-configuration-repository.git
+          username: 1040978586@qq.com
+          password: whj13379959770            
+          repos:
+            configuration-client-2:   #根据项目名称（application.name）匹配uri
+              uri: http://127.0.0.1:9090/root/config-server-configuration-repository-2.git
+          timeout: 10
+             
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "bus-refresh"          
+            
+              

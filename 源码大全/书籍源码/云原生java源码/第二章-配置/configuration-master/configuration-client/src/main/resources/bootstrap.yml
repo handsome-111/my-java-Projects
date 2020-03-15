@@ -4,5 +4,19 @@ spring:
   cloud:
     config:
       uri: ${vcap.services.configuration-service.credentials.uri:http://localhost:8888}
-
+      
+management:
+  security:
+    enabled: false
+  endpoints:   
+    web:
+      exposure:
+        exclude:
+        - "*"
+        include: 
+        - refresh,info,health
+  endpoint:
+    beans:
+      cache:
+        time-to-live: 10s   
 

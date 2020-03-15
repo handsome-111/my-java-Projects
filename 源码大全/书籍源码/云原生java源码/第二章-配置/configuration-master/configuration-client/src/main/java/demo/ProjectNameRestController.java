@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 class ProjectNameRestController {
 
 	@Value("${configuration.projectName}")
-	private String projectName;
+	private String projectName; 
 
 	//Spring会把Config Server中的配置值，作为enviroment
 	@Autowired
