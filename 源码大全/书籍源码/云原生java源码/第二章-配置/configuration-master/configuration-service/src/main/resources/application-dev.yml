@@ -26,10 +26,7 @@ spring:
 
 logging:
   file: springBoot.log
-  pattern:
-    console: %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n   #控制台输出的格式
-    file: %d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{15} - %msg%n      #指定文件输出的格式
-  #path: /spring/springboot.log   #在当前磁盘的根路径下生成文件,是磁盘根路径而不是当前路径         
+   
 management:
   endpoints:
     web:

@@ -31,7 +31,12 @@ import org.springframework.context.annotation.Profile;
 @Profile({"tut6","rpc"})
 @Configuration
 public class Tut6Config {
-
+	
+	/**
+	 * 创建客户端时，创建交换机
+	 * @author Administrator
+	 *
+	 */
 	@Profile("client")
 	private static class ClientConfig {
 
@@ -47,6 +52,9 @@ public class Tut6Config {
 
 	}
 
+	/**
+	 * 创建服务器时，创建队列，交换机和绑定
+	 */
 	@Profile("server")
 	private static class ServerConfig {
 

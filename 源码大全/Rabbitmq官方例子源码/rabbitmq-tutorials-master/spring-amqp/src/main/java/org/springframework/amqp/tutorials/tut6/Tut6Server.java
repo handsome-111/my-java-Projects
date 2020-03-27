@@ -24,7 +24,8 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 public class Tut6Server {
 
 	@RabbitListener(queues = "tut.rpc.requests")
-	// @SendTo("tut.rpc.replies") used when the client doesn't set replyTo.
+	// @SendTo("tut.rpc.replies") 当客户端没有设置replyTo时使用。
+	//斐波那契
 	public int fibonacci(int n) {
 		System.out.println(" [x] Received request for " + n);
 		int result = fib(n);

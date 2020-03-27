@@ -51,6 +51,7 @@ public class Tut4Sender {
 		builder.append(key).append(' ');
 		builder.append(this.count.incrementAndGet());
 		String message = builder.toString();
+		//发送消息到指定的交换机并携带key
 		template.convertAndSend(direct.getName(), key, message);
 		System.out.println(" [x] Sent '" + message + "'");
 	}

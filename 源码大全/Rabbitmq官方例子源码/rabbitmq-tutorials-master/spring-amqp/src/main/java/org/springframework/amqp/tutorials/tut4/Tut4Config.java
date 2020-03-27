@@ -54,6 +54,7 @@ public class Tut4Config {
 		}
 		
 		//自动导入DirectExchange和QueueBean
+		//并将队列绑定到交换机上，并且指定key
 		@Bean
 		public Binding binding1a(DirectExchange direct, Queue autoDeleteQueue1) {
 			return BindingBuilder.bind(autoDeleteQueue1).to(direct).with("orange");

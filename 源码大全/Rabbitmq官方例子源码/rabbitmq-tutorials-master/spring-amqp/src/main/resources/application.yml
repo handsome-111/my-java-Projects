@@ -9,4 +9,4 @@ spring:
 
 tutorial:
   client:
-    duration: 20000
+    duration: 30000
