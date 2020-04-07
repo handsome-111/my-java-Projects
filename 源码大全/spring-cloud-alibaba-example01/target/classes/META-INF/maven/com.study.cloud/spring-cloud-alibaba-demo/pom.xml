@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>2.1.2.RELEASE</version>
+      <relativePath/>
+  </parent>
+    
+  <properties>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+      <java.version>1.8</java.version>
+  </properties>
+  
+  <dependencyManagement>
+      <dependencies>
+        <!-- spring-cloud -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>Greenwich.SR2</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <!-- spring-cloud-alibaba -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+            <version>2.1.0.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+      </dependencies>
+  </dependencyManagement>
+  
+  <groupId>com.study.cloud</groupId>
+  <artifactId>spring-cloud-alibaba-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <build>
+  	<plugins> 
+     <plugin>
+       <artifactId>maven-compiler-plugin</artifactId>
+       <configuration>
+         <source>1.8</source>
+         <target>1.8</target>
+       </configuration>
+     </plugin>
+   	</plugins>
+   </build>
+  
+  <name>Spring Cloud Alibaba demo01</name>
+  <description>Spring Cloud Alibaba demo01</description>
+</project> 
