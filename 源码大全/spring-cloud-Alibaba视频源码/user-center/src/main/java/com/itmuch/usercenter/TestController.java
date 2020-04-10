@@ -18,6 +18,7 @@ public class TestController {
      */
     private final UserMapper userMapper;
 
+
     @GetMapping("/test")
     public User testInsert() {
         User user = new User();
@@ -35,4 +36,5 @@ public class TestController {
     public User query(User user) {
         return user;
     }
+
 }

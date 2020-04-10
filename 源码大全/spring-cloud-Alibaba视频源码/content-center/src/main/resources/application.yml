@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/content_center
+    url: jdbc:mysql://localhost:3308/content_center?serverTimezone=UTC
     hikari:
       username: root
-      password: root123
+      password: root
       # >= 6.x: com.mysql.cj.jdbc.Driver
       # <= 5.x: com.mysql.jdbc.Driver
       driver-class-name: com.mysql.cj.jdbc.Driver
@@ -21,7 +21,7 @@ spring:
         enabled: true
       transport:
         # 指定sentinel 控制台的地址
-        dashboard: localhost:8080
+        dashboard: localhost:8888
     stream:
       rocketmq:
         binder:

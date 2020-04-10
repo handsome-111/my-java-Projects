@@ -56,6 +56,7 @@ public class TestController {
 
         this.shareMapper.insertSelective(share);
 
+
         // 2. 做查询: 查询当前数据库所有的share  select * from share ;
         List<Share> shares = this.shareMapper.selectAll();
 
